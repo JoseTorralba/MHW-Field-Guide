@@ -1,0 +1,47 @@
+body {
+    // background-color: rgb(168, 168, 168);
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    @include respond(tablet-portrait) {
+        background-attachment: scroll;
+        background-color: #222222;
+    }
+}
+
+.primary-heading {
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 1.5rem 3rem rgb(0, 0, 0);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+// Location Heading
+.secondary-heading {
+    color: #fff;
+    font-size: 2.5rem;
+    max-width: 114rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+    text-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+
+    @include respond(tablet-landscape) {
+        text-align: center;
+        margin: 2rem 0 2rem;
+    }
+}
+
+// .Thunder{
+//     color: yellow
+// }
