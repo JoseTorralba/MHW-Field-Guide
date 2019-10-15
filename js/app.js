@@ -182,13 +182,13 @@ function randomBackgroundImage() {
 
     // Random Background
     var backgroundImages = [
-        "url(../img/locale/ancient-forest.jpg)",
-        "url(../img/locale/wildspire-waste.jpg)",
-        "url(../img/locale/rotten-vale.jpg)",
-        "url(../img/locale/coral-highlands.jpg)",
-        "url(../img/locale/elders-recess.jpg)",
-        "url(../img/locale/hoarfrost-reach.jpg)",
-        "url(../img/locale/guiding-lands.jpg)"
+        "url(img/locale/ancient-forest.jpg)",
+        "url(img/locale/wildspire-waste.jpg)",
+        "url(img/locale/rotten-vale.jpg)",
+        "url(img/locale/coral-highlands.jpg)",
+        "url(img/locale/elders-recess.jpg)",
+        "url(img/locale/hoarfrost-reach.jpg)",
+        "url(img/locale/guiding-lands.jpg)"
     ];
 
     // Displays Background Image & Gradient
