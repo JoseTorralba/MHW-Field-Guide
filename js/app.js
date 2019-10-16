@@ -25,8 +25,8 @@ function fetchMonsterData() {
 
 fetchMonsterData();
 
-// Submit Button
-submitMonster.addEventListener('click', () => getMonsterData(monsterValue.value));
+// Keeps track of option in selection is changed
+monsterValue.addEventListener('change', () => getMonsterData(monsterValue.value));
 
 // Random Button
 randomMonster.addEventListener('click', () => {
@@ -166,7 +166,6 @@ function viewImage(imgTarget) {
 
     // Get image id and onclick, remove modal
     window.onclick = function(event) {
-
         if (event.target == getModalContainer || event.target == getModalImg) {
             getModalContainer.style.display = "none";
             getModalImg.src = "";

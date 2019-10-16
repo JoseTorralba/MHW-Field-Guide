@@ -60,20 +60,20 @@ body {
       text-align: center;
       margin: 2rem 0 2rem; } }
 
-.selection {
+.options {
   font-size: 1.6rem;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  max-width: 70rem;
+  max-width: 50rem;
   margin: 0 auto;
   margin-top: 1rem; }
   @media only screen and (max-width: 56.25em) {
-    .selection {
+    .options {
       grid-template-columns: repeat(1, 1fr);
       max-width: 75%; } }
-  .selection__list {
+  .options__list {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -88,11 +88,11 @@ body {
     padding: .6rem 1.4rem .5rem .8rem;
     text-transform: capitalize;
     width: 100%; }
-    .selection__list:focus {
+    .options__list:focus {
       outline-color: #27fb95;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
       transition: all .2s; }
-  .selection__btn:link, .selection__btn:visited {
+  .options__btn:link, .options__btn:visited {
     border: 1px solid #fff;
     color: #fff;
     background-color: #000;
@@ -100,7 +100,7 @@ body {
     padding: .6rem 1.8rem;
     text-decoration: none;
     transition: all .3s; }
-    .selection__btn:link:hover, .selection__btn:visited:hover {
+    .options__btn:link:hover, .options__btn:visited:hover {
       border: 1px solid #76bb3e; }
 
 .modal-container {
