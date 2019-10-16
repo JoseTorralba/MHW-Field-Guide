@@ -228,6 +228,27 @@
     },
 
     {
+        "render": "img/render/behemoth.png",
+        "name": "Behemoth",
+        "species": "Elder Dragon",
+        "description": "A powerful beast from another world. Its large horns and muscular frame defy nature. Unique strategies are required to battle it.",
+        
+        "useful_info": "Cannot be fought alone; a combination of a healer, attack, and an instigator are required. When Ecliptic Meteor is summoned, tace cover behind a fallen Comet or face your fate.",
+
+        "elements": ["Fire", "Thunder"],
+        "ailments": ["Bleeding","Fireblight", "Thunderblight"],
+        "resistances": ["Thunder", "Fire"],
+        "weakness": ["Dragon (&#9733;&#9733;&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Elder's Recess",
+                "img": "img/locale/elders-recess.jpg"
+            }  
+        ]
+    },
+
+    {
         "render": "img/render/beotodus.png",
         "name": "Beotodus",
         "species": "Piscine Wyvern",
@@ -298,6 +319,31 @@
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
             } 
+        ]
+    },
+
+    {
+        "render": "img/render/brute_tigrex.png",
+        "name": "Brute Tigrex",
+        "species": "Flying Wyvern",
+        "description": "Blackish brown scales and a stronger roar set this Tigrex subspecies apart. Extremely aggressive, even by Tigrex standards.",
+        
+        "useful_info": "As with its standard cousins, it will tire after repeated charges, so attempt to bait them out. Breaking its head is an effective way to weaken the monster's roar.",
+
+        "elements": ["None"],
+        "ailments": ["Fireblight", "Waterblight"],
+        "resistances": ["Fire"],
+        "weakness": ["Water (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Ice (&#9733;)", "Dragon (&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Elder's Recess",
+                "img": "img/locale/elders-recess.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }    
         ]
     },
 
@@ -559,7 +605,32 @@
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }       
+            }
+        ]
+    },
+
+    {
+        "render": "img/render/gold_rathian.png",
+        "name": "Gold Rathian",
+        "species": "Flying Wyvern",
+        "description": "A rare gleaming gold scaled Rathian species. When wreathed in hellfire, its breath grows more lethal and its tail swipes broader.",
+        
+        "useful_info": "The hellfire can be dispelled by dealing a set amount of damage to its head, which is extremely tough until broken. Try to destroy it as quickly as possible",
+
+        "elements": ["Fire"],
+        "ailments": ["Fireblight", "Poison"],
+        "resistances": ["Dragon", "Fire"],
+        "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Water (&#9733;&#9733;)", "Ice (&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Elder's Recess",
+                "img": "img/locale/elders-recess.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
         ]
     },
 
@@ -810,6 +881,26 @@
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
             }    
+        ]
+    },
+
+    {
+        "render": "img/render/leshen.png",
+        "name": "Leshen",
+        "species": "Relict",
+        "description": "Dwelling deep inside the forest, these creatures use their innate magic to control all flora and fauna within their territory.",
+        "useful_info": "Revoltures and Jagras controlled by a Leshen are tough to approach, but the Igni Sign is very useful in fending off the Leshen's lashing roots.",
+
+        "elements": ["None"],
+        "ailments": ["Bleeding"],
+        "resistances": ["Water", "Sleep"],
+        "weakness": ["Fire (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;)", "Thunder (&#9733;&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Ancient Forest",
+                "img": "img/locale/ancient-forest.jpg"
+            }
         ]
     },
 
@@ -1236,32 +1327,26 @@
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
             },
-
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-            
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1321,6 +1406,30 @@
     },
 
     {
+        "render": "img/render/silver_rathalos.png",
+        "name": "Silver Rathalos",
+        "species": "Flying Wyvern",
+        "description": "A rare silver scaled Rathalos species. When weathering in hellfire, its breath grows more lethal and it gains a new set of attacks.",
+        "useful_info": "The hellfire can be dispelled by dealing a set amount of damage to its head. It lives in tandem with a Gold Rathian, and their breath becomes deadlier still when combined.",
+
+        "elements": ["Fire"],
+        "ailments": ["Fireblight", "Stun", "Poison"],
+        "resistances": ["Fire", "Dragon"],
+        "weakness": ["Water (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Ice (&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Elder's Recess",
+                "img": "img/locale/elders-recess.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
         "render": "img/render/teostra.png",
         "name": "Teostra",
         "species": "Elder Dragon",
@@ -1357,7 +1466,6 @@
         "name": "Tigrex",
         "species": "Flying Wyvern",
         "description": "A Flying Wyvern straight out of prehistory known for its deafening roar and powerful legs that frove its overwhelming charge.",
-        
         "useful_info": "Ledges and obstacles won't stop Tigrex's charge, sp you'll need to steer clear. After enough repetitions the monster will tire and slow down, opening up to counterattacks.",
 
         "elements": ["None"],
@@ -1370,27 +1478,22 @@
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
             }, 
-
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
             }, 
-
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1468,7 +1571,6 @@
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-            
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1481,7 +1583,6 @@
         "name": "Vaal Hazak",
         "species": "Elder Dragon",
         "description": "A grotesque Elder Dragon, that inhabits the deepest oart of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship.",
-
         "useful_info": "Once you've become tainted, inhaling the vapor of the vale causes your own health to drain. Head for areas where the vapor is thin, and if you do get tainted, do your best to get rid of it.",
 
         "elements": ["None"],
@@ -1502,7 +1603,6 @@
         "name": "Velkhana",
         "species": "Elder Dragon",
         "description": "An Elder Dragon with the power to freeze all in its path. According to ancient legend, it can freely control the cold, and use its freezing breath to conjure massive spires of ice out of nowhere.",
-
         "useful_info": "Shattering the ice that encases its body neutralizes its freezing breath. The ice walls it forms can be broken to provide platforms for mounting. Torch pods are useful for this.",
 
         "elements": ["Ice"],
@@ -1514,33 +1614,27 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-            
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1574,7 +1668,6 @@
         "name": "Xeno'jiiva",
         "species": "Elder Dragon",
         "description": "???",
-
         "useful_info": "???",
 
         "elements": ["Dragon"],
@@ -1634,12 +1727,10 @@
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
             },
-
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-            
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1652,8 +1743,7 @@
         "name": "Zorah Magdaros",
         "species": "Elder Dragon",
         "description": "An Elder Dragon that rises from the Earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
-        
-        "useful_info": "",
+        "useful_info": "Normal attcks can't make a dent in its mountain like shell. Utilize larger weapons such as cannons and ballistae, or directly attack the 'magmacore' heat organs that are exposed in parts of its outer shell.",
 
         "elements": ["Fire"],
         "ailments": ["Fireblight"],
@@ -1665,7 +1755,6 @@
                 "name": "The Great Ravine",
                 "img": "img/locale/great_ravine.jpg"
             },
-
             {
                 "name": "The Everstream",
                 "img": "img/locale/everstream.jpg"
