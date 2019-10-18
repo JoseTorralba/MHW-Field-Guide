@@ -28,9 +28,8 @@ fetchMonsterData();
 // Keeps track of option in selection is changed
 monsterValue.addEventListener('change', () => getMonsterData(monsterValue.value));
 
-// Random Button
+// Random Button, Returns Random Monster
 randomMonster.addEventListener('click', () => {
-    
     var randomizer = Math.round(Math.random() * monsterObj.length);
     var randomizedMonster = monsterObj[randomizer].name;
     console.log(randomizedMonster)
@@ -46,7 +45,8 @@ function getMonsterData(monsterID) {
     // Hides Previous Result
     getMonsterContainer.innerHTML = "";
 
-    console.log(monsterObj.length)
+    // console.log(monsterObj.length)
+
     // Displays Footer
     displayFooter.style.display = 'block';
 
@@ -195,5 +195,3 @@ function randomBackgroundImage() {
 }
 
 randomBackgroundImage()
-
-

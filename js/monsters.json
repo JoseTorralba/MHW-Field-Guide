@@ -17,7 +17,6 @@
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -42,13 +41,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-            
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -60,7 +57,6 @@
         "render": "img/render/azure_rathalos.png",
         "name": "Azure Rathalos",
         "species": "Flying Wyvern",
-
         "description": "An Azure colored Subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
 
         "useful_info": "Counter its airborne onslaught by observing its flight patterns and finding the right moment to knock it out of the sky. Once grounded, it loses its ability to perform consecutive attacks, making the fight much easier.",
@@ -74,13 +70,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-            
+            },
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -105,33 +99,27 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-            
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -178,7 +166,6 @@
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -203,23 +190,19 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-            
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
@@ -244,7 +227,7 @@
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
-            }  
+            }
         ]
     },
 
@@ -286,12 +269,11 @@
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-            
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            } 
+            }
         ]
     },
 
@@ -314,11 +296,10 @@
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-            
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            } 
+            }
         ]
     },
 
@@ -343,7 +324,7 @@
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }    
+            }
         ]
     },
 
@@ -365,11 +346,10 @@
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            } 
+            }
         ]
     },
     
@@ -390,23 +370,19 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-            
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
@@ -431,12 +407,11 @@
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-            
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            } 
+            }
         ]
     },
 
@@ -458,11 +433,10 @@
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }       
+            }
         ]
     },
 
@@ -483,37 +457,31 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-            
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }       
+            }
         ]
     },
 
@@ -534,37 +502,31 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-            
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }       
+            }
         ]
     },
 
@@ -585,23 +547,19 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-            
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -652,11 +610,10 @@
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }       
+            }
         ]
     },
 
@@ -677,12 +634,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }       
+            }
         ]
     },
 
@@ -700,16 +656,14 @@
         "weakness": ["Thunder (&#9733;&#9733;&#9733;) (No Mud)", "Water (&#9733;&#9733;&#9733;) (With Mud)"],
 
         "locations": [
-
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }     
+            }
         ]
     },
 
@@ -729,16 +683,14 @@
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }      
+            }
         ]
     },
 
@@ -759,17 +711,15 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }     
+            }
         ]
     },
 
@@ -788,7 +738,7 @@
 
         "locations": [
             {
-                "name": "Caverns of El Dorardo",
+                "name": "Caverns of El Dorado",
                 "img": "img/locale/caverns-of-el-dorado.jpg"
             }
 
@@ -809,21 +759,18 @@
         "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;)"],
 
         "locations": [
-
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }      
+            }
         ]
     },
 
@@ -845,11 +792,10 @@
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }      
+            }
         ]
     },
 
@@ -871,16 +817,14 @@
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }    
+            }
         ]
     },
 
@@ -918,21 +862,18 @@
         "weakness": ["Ice (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;)"],
 
         "locations": [
-
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }     
+            }
         ]
     },
 
@@ -954,21 +895,18 @@
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
             },
-
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }    
+            }
         ]
     },
 
@@ -990,11 +928,10 @@
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }    
+            }
         ]
     },
 
@@ -1012,11 +949,10 @@
         "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;)"],
 
         "locations": [ 
-
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
-            }  
+            }
         ]
     },
 
@@ -1037,17 +973,15 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }     
+            }
         ]
     },
 
@@ -1069,12 +1003,10 @@
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-            
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1100,7 +1032,6 @@
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1125,13 +1056,11 @@
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1156,13 +1085,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1188,7 +1115,6 @@
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1213,37 +1139,31 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
             },
-
             {
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-            
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }        
+            }
         ]
     },
 
@@ -1264,13 +1184,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1295,13 +1213,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1315,7 +1231,7 @@
         "species": "Brute Wyvern",
         "description": "A mutated Deviljho variant, driven mad by its overpowering hunger. It will attempt to feed on all it sees.",
 
-        "useful_info": "",
+        "useful_info": "The monster grows in strength as it fights and feeds, so preventing it from eating is paramount. Blows to the head are effective. It will ignore hunters around larger prey.",
 
         "elements": ["Dragon"],
         "ailments": ["Dragonblight", "Defense Down", "Fireblight (On Lava Terrain)", "Iceblight (On Icy Terrain)", "Waterblight (On Water Terrain)", "Effluvial Buildup (In Rotten Vale)"],
@@ -1360,7 +1276,7 @@
         "species": "Flying Wyvern",
         "description": "The scales of this Bazelgeuse variant burn hotter than normal increasing in number and explosion radius as time passes.",
 
-        "useful_info": "",
+        "useful_info": "Focus attacks on the enhanced scales to weaken the monster. Reports indicate that puddle pods, crystalburst, and scatternuts are all effective in this regard.",
         
         "elements": ["Fire"],
         "ailments": ["Fireblight"],
@@ -1375,7 +1291,7 @@
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }   
+            }
         ]
     },
 
@@ -1397,11 +1313,10 @@
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }     
+            }
         ]
     },
 
@@ -1443,21 +1358,18 @@
         "weakness": ["Water (&#9733;&#9733;&#9733;)", "Ice (&#9733;&#9733;&#9733;)"],
 
         "locations": [
-
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
-            
+            },
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
-
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }     
+            }
         ]
     },
 
@@ -1477,11 +1389,11 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
+            },
             {
                 "name": "Wildspire Waste",
                 "img": "img/locale/wildspire-waste.jpg"
-            }, 
+            },
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
@@ -1497,7 +1409,7 @@
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
-            }    
+            }
         ]
     },
 
@@ -1518,8 +1430,7 @@
             {
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
-            }, 
-
+            },
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1545,7 +1456,6 @@
                 "name": "Coral Highlands",
                 "img": "img/locale/coral-highlands.jpg"
             },
-            
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1594,7 +1504,7 @@
             {
                 "name": "Rotten Vale",
                 "img": "img/locale/rotten-vale.jpg"
-            }   
+            }
         ]
     },
 
@@ -1679,7 +1589,7 @@
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
-            }   
+            }
         ]
     },
 
@@ -1701,7 +1611,6 @@
                 "name": "Ancient Forest",
                 "img": "img/locale/ancient-forest.jpg"
             },
-            
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
