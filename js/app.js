@@ -1,10 +1,10 @@
 // Gets Monster Container & Select Input, Select Value & Submit/Random Button
 var getMonsterContainer = document.getElementById('monster-container');
-var submitMonster = document.getElementById('submit-monster');
+var getMonsterIconContainer = document.getElementById('monster-icon-container');
 var randomMonster = document.getElementById('random-monster');
 var monsterValue = document.getElementById('monster-value');
 
-var displayFooter = document.querySelector('.footer');
+var getFooter = document.querySelector('.footer');
 
 // Returned Json Data
 let monsterObj = {};
@@ -19,36 +19,36 @@ function fetchMonsterData() {
     .then(data => {
         monsterObj = data;
         displayOptions();
+        displayMonsterIcon();
     })
     .catch(error => console.log(error));
 };
 
 fetchMonsterData();
 
-// Keeps track of option in selection is changed
+// Keeps track of option in selection when changed
 monsterValue.addEventListener('change', () => getMonsterData(monsterValue.value));
 
 // Random Button, Returns Random Monster
 randomMonster.addEventListener('click', () => {
-    var randomizer = Math.round(Math.random() * monsterObj.length);
+    var randomizer = Math.floor(Math.random() * monsterObj.length);
     var randomizedMonster = monsterObj[randomizer].name;
     console.log(randomizedMonster)
     getMonsterData(randomizedMonster)
 
     monsterValue.value = randomizedMonster;
 });
-    
 
 // Displays Monster in the HTML
 function getMonsterData(monsterID) {
-
+    scrollToTop();
     // Hides Previous Result
     getMonsterContainer.innerHTML = "";
-
+    getMonsterIconContainer.style.display = "none";
     // console.log(monsterObj.length)
 
     // Displays Footer
-    displayFooter.style.display = 'block';
+    getFooter.style.display = 'block';
 
     for (var i = 0; i < monsterObj.length; i++) {
         if (monsterObj[i].name == monsterID) {
@@ -62,7 +62,7 @@ function getMonsterData(monsterID) {
                     <img src="${monsterObj[i].render}" class="monster__details--render-img">
                 </div>
                 <div class="monster__details--info">
-                    <p class="monster__details--heading">${monsterObj[i].name}</p>
+                    <h2 class="monster__details--heading">${monsterObj[i].name}</h2>
                     <p class="monster__details--text">${monsterObj[i].description}</p>
 
                     <p class="monster__details--text">
@@ -93,45 +93,70 @@ function getMonsterData(monsterID) {
             `;
             getMonsterContainer.appendChild(displayMonster);
 
+
             // Creates Location Heading
             var locationHeadingDiv = document.createElement('div');
             locationHeadingDiv.innerHTML = `<h2 class="secondary-heading">Locations</h2>`;
             getMonsterContainer.appendChild(locationHeadingDiv);
 
+
             // Creates Div Then Contains Monster Locale Info
-            var displayLocale = document.createElement('div');
-            displayLocale.classList.add('monster__location');
+            var displayLocale = document.createElement('div');
+            displayLocale.classList.add('monster__location');
 
-            for (let l = 0; l < monsterObj[i].locations.length; l++) {
 
-                // Creates Div for Every Single Location
+            // Creates Div for Every Single Locale Image/Name
+            for (var l = 0; l < monsterObj[i].locations.length; l++) {
+
                 var localeContainer = document.createElement('div')
+                localeContainer.innerHTML = `
+                    <p class="monster__location--name">${monsterObj[i].locations[l].name}</p>
+                    <img src="${monsterObj[i].locations[l].img}" class="monster__location--img">
+                `;
+                
+                displayLocale.appendChild(localeContainer);
+                getMonsterContainer.appendChild(displayLocale);
+            }
 
-                // Creates Location Heading
-                var localeName = document.createElement('h3');
-                localeName.classList.add('monster__location--name')
-                localeName.textContent = monsterObj[i].locations[l].name;
-                localeContainer.appendChild(localeName)
+            // Enlarges Monster Render
+            var monsterRender = document.querySelector('.monster__details--render-img');
+            viewImage(monsterRender)
 
-                // Creates Location Image
-                const localeImg = new Image();
-                localeImg.classList.add('monster__location--img')
-                localeImg.src = monsterObj[i].locations[l].img;
-                localeImg.alt = monsterObj[i].locations[l].name;
-
-                // Enlarges Monster Render
-                var monsterRender = document.querySelector('.monster__details--render-img');
-                viewImage(monsterRender)
-
-                // Enlarges Locale Image
-                viewImage(localeImg)
-
-                localeContainer.appendChild(localeImg)
-                displayLocale.appendChild(localeContainer)
-            };
-            getMonsterContainer.appendChild(displayLocale);
+            // Enlarges Locale Image
+            var localeImg = document.querySelectorAll('.monster__location--img');
+            localeImg.forEach((localeImg) => viewImage(localeImg)) 
         }
     }
+}
+
+function displayMonsterIcon() {
+    
+    for (var i = 0; i < 12; i++) {
+        
+        var r = Math.floor(Math.random() * monsterObj.length);
+        var randomizedMonster = monsterObj[r];
+        // console.log(randomizedMonster)
+
+        // Creates Div Then Contains Monster Icon Info
+        var displayMonster = document.createElement('div')
+        displayMonster.classList.add('monster__icons-box');
+
+        displayMonster.innerHTML = `
+            <p class="monster__icons-box--heading">${randomizedMonster.name}</p>
+            <img src="${randomizedMonster.icon}" class="monster__icons-box--icon" alt="${randomizedMonster.name}">
+        `;
+        getMonsterIconContainer.appendChild(displayMonster);
+    }
+
+    // Monster Icons on Click
+    var monsterIcon = document.querySelectorAll('.monster__icons-box--icon');
+    monsterIcon.forEach(function (monsterIcon) {
+        monsterIcon.addEventListener('click', function() {
+            console.log(monsterIcon.alt)
+            getMonsterData(monsterIcon.alt)
+            monsterValue.value = monsterIcon.alt;
+        })
+    });
 }
 
 // Creates Options for Select Element
@@ -177,7 +202,7 @@ function viewImage(imgTarget) {
 // Gradient & Image Background
 function randomBackgroundImage() {
     var randombackground = Math.round(Math.random() * 6);
-    var backgroundGradient = "linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)),";
+    var backgroundGradient = "linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1)),";
 
     // Random Background
     var backgroundImages = [
@@ -195,3 +220,12 @@ function randomBackgroundImage() {
 }
 
 randomBackgroundImage()
+
+// Scrolls to top
+const scrollToTop = () => {
+    const screenHeight = document.documentElement.scrollTop || document.body.scrollTop;
+    if (screenHeight > 0) {
+        window.requestAnimationFrame(scrollToTop);
+        window.scrollTo(0, screenHeight - screenHeight / 8);
+    }
+};

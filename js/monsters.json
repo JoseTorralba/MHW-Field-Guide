@@ -1,7 +1,8 @@
 [
     {
-        "render": "img/render/acidic_glavenus.png",
         "name": "Acidic Glavenus",
+        "render": "img/render/acidic_glavenus.png",
+        "icon": "img/icon/acidic_glavenus_icon.png",
         "species": "Brute Wyvern",
         "description": "A subspecies of Glavenus found in the Rotten Vale. A corrosive fluid has crystallized on its tail, spraying acid with each swing.",
 
@@ -25,8 +26,9 @@
     },
 
     {
-        "render": "img/render/anjanath.png",
         "name": "Anjanath",
+        "render": "img/render/anjanath.png",
+        "icon": "img/icon/anjanath_icon.png",
         "species": "Fanged Wyvern",
         "description": "The Anjanath patrols the Ancient Forest looking for its favorite meal, Aptonoth. This belligerent monster will attack anything without hesitation.",
 
@@ -54,8 +56,9 @@
     },
 
     {
-        "render": "img/render/azure_rathalos.png",
         "name": "Azure Rathalos",
+        "render": "img/render/azure_rathalos.png",
+        "icon": "img/icon/azure_rathalos_icon.png",
         "species": "Flying Wyvern",
         "description": "An Azure colored Subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
 
@@ -83,8 +86,9 @@
     },
 
     {
-        "render": "img/render/banbaro.png",
         "name": "Banbaro",
+        "render": "img/render/banbaro.png",
+        "icon": "img/icon/banbaro_icon.png",
         "species": "Brute Wyvern",
         "description": "A monster marked by its furious charge and by the majestic twin horns that uproot trees and gouge at the earth as it runs.",
 
@@ -128,8 +132,9 @@
     },
 
     {
-        "render": "img/render/barioth.png",
         "name": "Barioth",
+        "render": "img/render/barioth.png",
+        "icon": "img/icon/barioth_icon.png",
         "species": "Flying Wyvern",
         "description": "The snow white Flying Wyvern with huge tusks found in the frozen tundra. It uses its forelegs and tail to traverse ice with ease.",
 
@@ -149,8 +154,9 @@
     },
 
     {
-        "render": "img/render/barroth.png",
         "name": "Barroth",
+        "render": "img/render/barroth.png",
+        "icon": "img/icon/barroth_icon.png",
         "species": "Brute Wyvern",
         "description": "Barroth seek out ants, their favorite snack, and mark their territory with mud. They attack potential rivals with their devastating charging attack.",
 
@@ -174,8 +180,9 @@
     },
 
     {
-        "render": "img/render/bazelgeuse.png",
         "name": "Bazelgeuse",
+        "render": "img/render/bazelgeuse.png",
+        "icon": "img/icon/bazelgeuse_icon.png",
         "species": "Flying Wyvern",
         "description": "A nefarious Flying Wyvern that travels the New World in search of prey. It scatters explosive scales over a wide area to prey on whatever gets caught in the blast.",
 
@@ -211,8 +218,9 @@
     },
 
     {
-        "render": "img/render/behemoth.png",
         "name": "Behemoth",
+        "render": "img/render/behemoth.png",
+        "icon": "img/icon/behemoth_icon.png",
         "species": "Elder Dragon",
         "description": "A powerful beast from another world. Its large horns and muscular frame defy nature. Unique strategies are required to battle it.",
         
@@ -232,8 +240,9 @@
     },
 
     {
-        "render": "img/render/beotodus.png",
         "name": "Beotodus",
+        "render": "img/render/beotodus.png",
+        "icon": "img/icon/beotodus_icon.png",
         "species": "Piscine Wyvern",
         "description": "This Piscine monster's wedge-shaped head allows it to freely swim through the tundra snow. Frequently seen flinging snow at prey.",
 
@@ -253,8 +262,9 @@
     },
 
     {
-        "render": "img/render/black_diablos.png",
         "name": "Black Diablos",
+        "render": "img/render/black_diablos.png",
+        "icon": "img/icon/black_diablos_icon.png",
         "species": "Flying Wyvern",
         "description": "These black-shelled Diablos are actually female Diablos in heat. The color signals their aggressiveness and heightened hostility to other creatures in their habitat.",
 
@@ -279,8 +289,9 @@
 
 
     {
-        "render": "img/render/brachydios.png",
         "name": "Brachydios",
+        "render": "img/render/brachydios.png",
+        "icon": "img/icon/brachydios_icon.png",
         "species": "Brute Wyvern",
         "description": "This marine blue Brute Wyvern uses its saliva to prime the sticky slime coating its massive arms, rendering it highly explosive.",
 
@@ -304,8 +315,9 @@
     },
 
     {
-        "render": "img/render/brute_tigrex.png",
         "name": "Brute Tigrex",
+        "render": "img/render/brute_tigrex.png",
+        "icon": "img/icon/brute_tigrex_icon.png",
         "species": "Flying Wyvern",
         "description": "Blackish brown scales and a stronger roar set this Tigrex subspecies apart. Extremely aggressive, even by Tigrex standards.",
         
@@ -329,8 +341,9 @@
     },
 
     {
-        "render": "img/render/coral_pukei-pukei.png",
         "name": "Coral Pukei-Pukei",
+        "render": "img/render/coral_pukei-pukei.png",
+        "icon": "img/icon/coral_pukei-pukei_icon.png",
         "species": "Bird Wyvern",
         "description": "A Bird Wyvern that stockpiles water inside its body, fortified by the plant life it consumes. When threatened, it can expel a powerful stream from its mouth or tail.",
 
@@ -354,8 +367,9 @@
     },
     
     {
-        "render": "img/render/deviljho.png",
         "name": "Deviljho",
+        "render": "img/render/deviljho.png",
+        "icon": "img/icon/deviljho_icon.png",
         "species": "Brute Wyvern",
         "description": "Due to its enhanced metabolism, Deviljho must constantly seek out prey. It is extremely violent, and known to snatch up large monsters in its powerful maw and flail them around.",
 
@@ -391,8 +405,9 @@
     },
 
     {
-        "render": "img/render/diablos.png",
         "name": "Diablos",
+        "render": "img/render/diablos.png",
+        "icon": "img/icon/diablos_icon.png",
         "species": "Flying Wyvern",
         "description": "The apex monster of the Wildspire Waste. A menacing, territorial beast that lurks underground. Loud noises will cause it to lunge out of the sand in search of prey.",
 
@@ -416,8 +431,9 @@
     },
 
     {
-        "render": "img/render/dodogama.png",
         "name": "Dodogama",
+        "render": "img/render/dodogama.png",
+        "icon": "img/icon/dodogama_icon.png",
         "species": "Fanged Wyvern",
         "description": "A monster that devours rocks as its primary diet. The crystal it devours mix with its saliva to produce explosive minerals that it can spit at its enemies.",
 
@@ -441,8 +457,9 @@
     },
 
     {
-        "render": "img/render/ebony_odogaron.png",
         "name": "Ebony Odogaron",
+        "render": "img/render/ebony_odogaron.png",
+        "icon": "img/icon/ebony_odogaron_icon.png",
         "species": "Fanged Wyvern",
         "description": "This Odogaron subspecies is forever on the prowl for its next meal, and is often seen carrying fresh kills in its mouth. Reports indicate it goes into a frenzy upon eating",
 
@@ -486,8 +503,9 @@
     },
 
     {
-        "render": "img/render/fulgur_anjanath.png",
         "name": "Fulgur Anjanath",
+        "render": "img/render/fulgur_anjanath.png",
+        "icon": "img/icon/fulgur_anjanath_icon.png",
         "species": "Brute Wyvern",
         "description": "Feared as the 'Thunderjaw Wyvern,' this Anjanath subspecies electrifies its jaws and dorsal membrane with every blow.",
 
@@ -531,8 +549,9 @@
     },
 
     {
-        "render": "img/render/glavenus.png",
         "name": "Glavenus",
+        "render": "img/render/glavenus.png",
+        "icon": "img/icon/glavenus_icon.png",
         "species": "Brute Wyvern",
         "description": "A Brute Wyvern that wields its heavy, blue tail like a blade. It grows hotter and more keen with each strike until it glows red.",
 
@@ -568,8 +587,9 @@
     },
 
     {
-        "render": "img/render/gold_rathian.png",
         "name": "Gold Rathian",
+        "render": "img/render/gold_rathian.png",
+        "icon": "img/icon/gold_rathian_icon.png",
         "species": "Flying Wyvern",
         "description": "A rare gleaming gold scaled Rathian species. When wreathed in hellfire, its breath grows more lethal and its tail swipes broader.",
         
@@ -593,8 +613,9 @@
     },
 
     {
-        "render": "img/render/great_girros.png",
         "name": "Great Girros",
+        "render": "img/render/great_girros.png",
+        "icon": "img/icon/great_girros_icon.png",
         "species": "Fanged Wyvern",
         "description": "A monster that scavenges for meals dropped fromt the Coral Highlands. It acts as the alpha leader of a Girros pack, and sports giant fangs that paralyze its prey.",
 
@@ -618,8 +639,9 @@
     },
 
     {
-        "render": "img/render/great_jagras.png",
         "name": "Great Jagras",
+        "render": "img/render/great_jagras.png",
+        "icon": "img/icon/great_jagras_icon.png",
         "species": "Fanged Wyvern",
         "description": "The pack leader of the Jagras. When hungry, Great Jagras are known to attack monsters even stronger than themselves. It ballons to unbelievable proportions after swallowing prey.",
 
@@ -643,8 +665,9 @@
     },
 
     {
-        "render": "img/render/jyuratodus.png",
         "name": "Jyuratodus",
+        "render": "img/render/jyuratodus.png",
+        "icon": "img/icon/jyuratodus_icon.png",
         "species": "Piscine Wyvern",
         "description": "A large Piscine Wyvern that inhabits the swamps of the Wildspire Waste. It uses mud to capture prey, and its known to battle Barroth over territory.",
 
@@ -668,8 +691,9 @@
     },
 
     {
-        "render": "img/render/kirin.png",
         "name": "Kirin",
+        "render": "img/render/kirin.png",
+        "icon": "img/icon/kirin_icon.png",
         "species": "Elder Dragon",
         "description": "Kirin are so rarely sighted that little is known of their ecology. It's been said they envelop themselves in pure electricity when they are provoked.",
         "useful_info": "The lightning a Kirin cloaks itself with has been confirmed to toughen its skin. The key to hunting a Kirin lies in staggering it, using Elderseal weapons, and protecting yourself from and avoiding its lightning attacks.",
@@ -695,8 +719,9 @@
     },
 
     {
-        "render": "img/render/kulu-ya-ku.png",
         "name": "Kulu-Ya-Ku",
+        "render": "img/render/kulu-ya-ku.png",
+        "icon": "img/icon/kulu-ya-ku_icon.png",
         "species": "Bird Wyvern",
         "description": "An odd Bird Wyvern that has developed limbs capable of carrying weapons. It's beem spotted stealing eggs from nests found in the Ancient Forest And Wildspire Waste.",
 
@@ -724,8 +749,9 @@
     },
 
     {
-        "render": "img/render/kulve_taroth.png",
         "name": "Kulve Taroth",
+        "render": "img/render/kulve_taroth.png",
+        "icon": "img/icon/kulve_taroth_icon.png",
         "species": "Elder Dragon",
         "description": "An Elder Dragon that protects itself with a glittering coat of metal. Its ecology and coat differ with each appearance, thus the need for a thorough investigation.",
 
@@ -746,8 +772,9 @@
     },
 
     {
-        "render": "img/render/kushala_daora.png",
         "name": "Kushala Daora",
+        "render": "img/render/kushala_daora.png",
+        "icon": "img/icon/kushala_daora_icon.png",
         "species": "Elder Dragon",
         "description": "An Elder Dragon that shields itself with fierce winds, preventing anyone from approaching it. Its skin consists of hard, metallic scales.",
 
@@ -775,8 +802,9 @@
     },
 
     {
-        "render": "img/render/lavasioth.png",
         "name": "Lavasioth",
+        "render": "img/render/lavasioth.png",
+        "icon": "img/icon/lavasioth_icon.png",
         "species": "Piscine Wyvern",
         "description": "Lavasioth utilize molten lava as armor. They are extremely aggressive and will attack without prejudice until the threat has been eliminated",
 
@@ -800,8 +828,9 @@
     },
 
     {
-        "render": "img/render/legiana.png",
         "name": "Legiana",
+        "render": "img/render/legiana.png",
+        "icon": "img/icon/legiana_icon.png",
         "species": "Flying Wyvern",
         "description": "The apex monster of the Coral Highlands, whose diet primarily consist of Raphinos. It Emits a chilling wind from its body, which dulls its prey's ability to escape.",
 
@@ -829,8 +858,9 @@
     },
 
     {
-        "render": "img/render/leshen.png",
         "name": "Leshen",
+        "render": "img/render/leshen.png",
+        "icon": "img/icon/leshen_icon.png",
         "species": "Relict",
         "description": "Dwelling deep inside the forest, these creatures use their innate magic to control all flora and fauna within their territory.",
         "useful_info": "Revoltures and Jagras controlled by a Leshen are tough to approach, but the Igni Sign is very useful in fending off the Leshen's lashing roots.",
@@ -849,8 +879,9 @@
     },
 
     {
-        "render": "img/render/lunastra.png",
         "name": "Lunastra",
+        "render": "img/render/lunastra.png",
+        "icon": "img/icon/lunastra_icon.png",
         "species": "Elder Dragon",
         "description": "A rare Female Elder Dragon that litters the Air with hot blue dust. Reports of it traveling with her mate, Teostra, are still uncomfirmed.",
 
@@ -878,8 +909,9 @@
     },
 
     {
-        "render": "img/render/nargacuga.png",
         "name": "Nargacuga",
+        "render": "img/render/nargacuga.png",
+        "icon": "img/icon/nargacuga_icon.png",
         "species": "Flying Wyvern",
         "description": "Extremely agile, especially on the ground, this obsidian furred Flying Wyvern moves with explosive bursts of speed.",
 
@@ -911,8 +943,9 @@
     },
 
     {
-        "render": "img/render/namielle.png",
         "name": "Namielle",
+        "render": "img/render/namielle.png",
+        "icon": "img/icon/namielle_icon.png",
         "species": "Elder Dragon",
         "description": "An Elder Dragon coated in water and able to freely control lightning. A unique organ allows it to pump electricity in the pools of water it creates, causing a massive burst of steam.",
 
@@ -936,8 +969,9 @@
     },
 
     {
-        "render": "img/render/nergigante.png",
         "name": "Nergigante",
+        "render": "img/render/nergigante.png",
+        "icon": "img/icon/nergigante_icon.png",
         "species": "Elder Dragon",
         "description": "A terrible Elder Dragon that appears when other Elders are in the vicinity. Its penchant for destruction is well documented.",
 
@@ -957,8 +991,9 @@
     },
 
     {
-        "render": "img/render/nightshade_paolumu.png",
         "name": "Nightshade Paolumu",
+        "render": "img/render/nightshade_paolumu.png",
+        "icon": "img/icon/nightshade_paolumu_icon.png",
         "species": "Flying Wyvern",
         "description": "A Paolumu subspecies capable of putting prey to sleep. It produces a powerful sedative gas stored within its throat sac that it can expel and scatter to knock unwary foes out.",
 
@@ -986,8 +1021,9 @@
     },
 
     {
-        "render": "img/render/odogaron.png",
         "name": "Odogaron",
+        "render": "img/render/odogaron.png",
+        "icon": "img/icon/odogaron_icon.png",
         "species": "Fanged Wyvern",
         "description": "A terrifying monster that scours the Rotten Vale for carrion. Its highly aggressive nature means that anything, be it monster or man, is a potential meal.",
 
@@ -1015,8 +1051,9 @@
     },
 
     {
-        "render": "img/render/paolumu.png",
         "name": "Paolumu",
+        "render": "img/render/paolumu.png",
+        "icon": "img/icon/paolumu_icon.png",
         "species": "Flying Wyvern",
         "description": "Paolumu feast on eggs found in the Coral Highlands. They are able to float through the air using unique sacs in their bodies, and attack with their extremely hard tails.",
 
@@ -1040,8 +1077,9 @@
     },
 
     {
-        "render": "img/render/pink_rathian.png",
         "name": "Pink Rathian",
+        "render": "img/render/pink_rathian.png",
+        "icon": "img/icon/pink_rathian_icon.png",
         "species": "Flying Wyvern",
         "description": "A subspecies with vibrant pink scales. Pink Rathians wield their toxic tails mores deftly than normal Rathians, weakening prey with poison before moving in for the kill.",
 
@@ -1069,8 +1107,9 @@
     },
 
     {
-        "render": "img/render/pukei-pukei.png",
         "name": "Pukei-Pukei",
+        "render": "img/render/pukei-pukei.png",
+        "icon": "img/icon/pukei-pukei_icon.png",
         "species": "Bird Wyvern",
         "description": "A Bird Wyvern known to posses poisonous toxins in its body. It's been spotted storing scatternuts in its mouth or tail, coating them with poison and spitting them out at threats.",
 
@@ -1098,8 +1137,9 @@
     },
 
     {
-        "render": "img/render/radobaan.png",
         "name": "Radobaan",
+        "render": "img/render/radobaan.png",
+        "icon": "img/icon/radobaan_icon.png",
         "species": "Brute Wyvern",
         "description": "A gigantic Brute Wyvern that eats the bones of cracasses found in the Rotten Vale, using some of it as armor. It also rolls into a ball as a form of attack and transportation.",
 
@@ -1123,8 +1163,9 @@
     },
 
     {
-        "render": "img/render/rajang.png",
         "name": "Rajang",
+        "render": "img/render/rajang.png",
+        "icon": "img/icon/rajang_icon.png",
         "species": "Fanged Beasts",
         "description": "An ultra-aggressive creature that few have a chance of surviving against. Sports powerful arms that pack a punch, and turns gold when angry.",
 
@@ -1168,8 +1209,9 @@
     },
 
     {
-        "render": "img/render/rathalos.png",
         "name": "Rathalos",
+        "render": "img/render/rathalos.png",
+        "icon": "img/icon/rathalos_icon.png",
         "species": "Flying Wyvern",
         "description": "The apex monster of the Ancient Forest, also known as the 'King of the Skies.' A terrible wyvern that descends upon invaders, attacking with poison claws and fiery breath.",
 
@@ -1197,8 +1239,9 @@
     },
 
     {
-        "render": "img/render/rathian.png",
         "name": "Rathian",
+        "render": "img/render/rathian.png",
+        "icon": "img/icon/rathian_icon.png",
         "species": "Flying Wyvern",
         "description": "Wyverns known as the 'Queens of the Land.' Terrestrial predators, they overpower prey with their venomouse tails and powerful legs.",
 
@@ -1226,8 +1269,9 @@
     },
 
     {
-        "render": "img/render/savage_deviljho.png",
         "name": "Savage Deviljho",
+        "render": "img/render/savage_deviljho.png",
+        "icon": "img/icon/savage_deviljho_icon.png",
         "species": "Brute Wyvern",
         "description": "A mutated Deviljho variant, driven mad by its overpowering hunger. It will attempt to feed on all it sees.",
 
@@ -1271,8 +1315,9 @@
     },
 
     {
-        "render": "img/render/seething_bazelgeuse.png",
         "name": "Seething Bazelgeuse",
+        "render": "img/render/seething_bazelgeuse.png",
+        "icon": "img/icon/seething_bazelgeuse_icon.png",
         "species": "Flying Wyvern",
         "description": "The scales of this Bazelgeuse variant burn hotter than normal increasing in number and explosion radius as time passes.",
 
@@ -1281,7 +1326,9 @@
         "elements": ["Fire"],
         "ailments": ["Fireblight"],
         "resistances": ["Fire"],
-        "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;)", "Ice (&#9733;&#9733;)"],
+        "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;&#9733;)", "Ice (&#9733;&#9733;)"],
+
+
 
         "locations": [
             {
@@ -1296,8 +1343,9 @@
     },
 
     {
-        "render": "img/render/shrieking_legiana.png",
         "name": "Shrieking Legiana",
+        "render": "img/render/shrieking_legiana.png",
+        "icon": "img/icon/shrieking_legiana_icon.png",
         "species": "Flying Wyvern",
         "description": "A Legiana variant shrouded in white frost. It specializes in freezing prey with the powerful chill it emits, then swooping down to strike at them from overhead.",
 
@@ -1321,8 +1369,9 @@
     },
 
     {
-        "render": "img/render/silver_rathalos.png",
         "name": "Silver Rathalos",
+        "render": "img/render/silver_rathalos.png",
+        "icon": "img/icon/silver_rathalos_icon.png",
         "species": "Flying Wyvern",
         "description": "A rare silver scaled Rathalos species. When weathering in hellfire, its breath grows more lethal and it gains a new set of attacks.",
         "useful_info": "The hellfire can be dispelled by dealing a set amount of damage to its head. It lives in tandem with a Gold Rathian, and their breath becomes deadlier still when combined.",
@@ -1345,8 +1394,9 @@
     },
 
     {
-        "render": "img/render/teostra.png",
         "name": "Teostra",
+        "render": "img/render/teostra.png",
+        "icon": "img/icon/teostra_icon.png",
         "species": "Elder Dragon",
         "description": "A brutal Elder Dragon wreathed in flames that spits blazing fire. Teostra are of such a fierce and deadly nature that the Guild closely monitors their movements",
 
@@ -1374,8 +1424,9 @@
     },
 
     {
-        "render": "img/render/tigrex.png",
         "name": "Tigrex",
+        "render": "img/render/tigrex.png",
+        "icon": "img/icon/tigrex_icon.png",
         "species": "Flying Wyvern",
         "description": "A Flying Wyvern straight out of prehistory known for its deafening roar and powerful legs that frove its overwhelming charge.",
         "useful_info": "Ledges and obstacles won't stop Tigrex's charge, sp you'll need to steer clear. After enough repetitions the monster will tire and slow down, opening up to counterattacks.",
@@ -1414,8 +1465,9 @@
     },
 
     {
-        "render": "img/render/tobi-kadachi.png",
         "name": "Tobi-Kadachi",
+        "render": "img/render/tobi-kadachi.png",
+        "icon": "img/icon/tobi-kadachi_icon.png",
         "species": "Fanged Wyvern",
         "description": "A Fanged Wyvern that flied among the tress of the Ancient Forest. Its penchant to brush against the ground and the trees as it moves around builds up static electricity within its fure.",
 
@@ -1439,8 +1491,9 @@
     },
 
     {
-        "render": "img/render/tzitzi-ya-ku.png",
         "name": "Tzitzi-Ya-Ku",
+        "render": "img/render/tzitzi-ya-ku.png",
+        "icon": "img/icon/tzitzi-ya-ku_icon.png",
         "species": "Bird Wyvern",
         "description": "This odd monster blinds both prey and enemies with a special pulsing organ near its head. It then uses its strong legs to deliver finishing blows.",
 
@@ -1464,8 +1517,9 @@
     },
 
     {
-        "render": "img/render/uragaan.png",
         "name": "Uragaan",
+        "render": "img/render/uragaan.png",
+        "icon": "img/icon/uragaan_icon.png",
         "species": "Brute Wyvern",
         "description": "TLarge Brute Wyverns that feed on ore, using their mighty jaw to crush solid rock to powder. They've been known to confront Lavasioths over territory disputes.",
 
@@ -1489,8 +1543,9 @@
     },
 
     {
-        "render": "img/render/vaal_hazak.png",
         "name": "Vaal Hazak",
+        "render": "img/render/vaal_hazak.png",
+        "icon": "img/icon/vaal_hazak_icon.png",
         "species": "Elder Dragon",
         "description": "A grotesque Elder Dragon, that inhabits the deepest oart of the Rotten Vale. It uses the fatal vapor of the vale in what appears to be a symbiotic relationship.",
         "useful_info": "Once you've become tainted, inhaling the vapor of the vale causes your own health to drain. Head for areas where the vapor is thin, and if you do get tainted, do your best to get rid of it.",
@@ -1509,8 +1564,9 @@
     },
 
     {
-        "render": "img/render/velkhana.png",
         "name": "Velkhana",
+        "render": "img/render/velkhana.png",
+        "icon": "img/icon/velkhana_icon.png",
         "species": "Elder Dragon",
         "description": "An Elder Dragon with the power to freeze all in its path. According to ancient legend, it can freely control the cold, and use its freezing breath to conjure massive spires of ice out of nowhere.",
         "useful_info": "Shattering the ice that encases its body neutralizes its freezing breath. The ice walls it forms can be broken to provide platforms for mounting. Torch pods are useful for this.",
@@ -1553,8 +1609,9 @@
     },
 
     {
-        "render": "img/render/viper_tobi-kadachi.png",
         "name": "Viper Tobi-Kadachi",
+        "render": "img/render/viper_tobi-kadachi.png",
+        "icon": "img/icon/viper_tobi-kadachi_icon.png",
         "species": "Fanged Wyvern",
         "description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
 
@@ -1574,12 +1631,12 @@
     },
 
     {
-        "render": "img/render/xenojiiva.png",
         "name": "Xeno'jiiva",
+        "render": "img/render/xenojiiva.png",
+        "icon": "img/icon/xenojiiva_icon.png",
         "species": "Elder Dragon",
         "description": "???",
         "useful_info": "???",
-
         "elements": ["Dragon"],
         "ailments": ["Fireblight", "Dragonblight"],
         "resistances": ["Sleep"],
@@ -1594,8 +1651,9 @@
     },
 
     {
-        "render": "img/render/yian_garuga.png",
         "name": "Yian Garuga",
+        "render": "img/render/yian_garuga.png",
+        "icon": "img/icon/yian_garuga_icon.png",
         "species": "Bird Wyvern",
         "description": "A short tempered Bird Wyvern marked by its hard, black scales and impressive mane. It strikes with its distinctive beak.",
         
@@ -1619,8 +1677,9 @@
     },
 
     {
-        "render": "img/render/zinogre.png",
         "name": "Zinogre",
+        "render": "img/render/zinogre.png",
+        "icon": "img/icon/zinogre_icon.png",
         "species": "Fanged Wyvern",
         "description": "Lightning courses through the fur and unique plating of this Fanged Wyvern. It is most deadly in its supercharged state.",
         
@@ -1648,8 +1707,9 @@
     },
 
     {
-        "render": "img/render/zorah_magdaros.png",
         "name": "Zorah Magdaros",
+        "render": "img/render/zorah_magdaros.png",
+        "icon": "img/icon/zorah_magdaros_icon.png",
         "species": "Elder Dragon",
         "description": "An Elder Dragon that rises from the Earth like a volcano. Where it's headed, and why, the Research Commission has yet to figure out.",
         "useful_info": "Normal attcks can't make a dent in its mountain like shell. Utilize larger weapons such as cannons and ballistae, or directly attack the 'magmacore' heat organs that are exposed in parts of its outer shell.",

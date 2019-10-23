@@ -34,7 +34,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     body {
       background-attachment: scroll;
-      background-color: #222222; } }
+      background-color: #000; } }
 
 .primary-heading {
   color: #fff;
@@ -50,7 +50,7 @@ body {
   font-size: 2.5rem;
   max-width: 114rem;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 2rem 0;
   text-align: center;
@@ -59,6 +59,21 @@ body {
     .secondary-heading {
       text-align: center;
       margin: 2rem 0 2rem; } }
+
+.instructions {
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  text-shadow: 0 1.5rem 3rem black;
+  padding: 4rem 0 0; }
+  @media only screen and (max-width: 56.25em) {
+    .instructions {
+      width: 50rem;
+      margin: 0 auto; } }
+  @media only screen and (max-width: 37.5em) {
+    .instructions {
+      width: 30rem;
+      margin: 0 auto; } }
 
 .options {
   font-size: 1.6rem;
@@ -89,11 +104,11 @@ body {
     text-transform: capitalize;
     width: 100%; }
     .options__list:focus {
-      outline-color: #27fb95;
+      outline-color: #76bb3e;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
       transition: all .2s; }
   .options__btn:link, .options__btn:visited {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     color: #fff;
     background-color: #000;
     display: inline-block;
@@ -101,7 +116,7 @@ body {
     text-decoration: none;
     transition: all .3s; }
     .options__btn:link:hover, .options__btn:visited:hover {
-      border: 1px solid #76bb3e; }
+      border: 2px solid #76bb3e; }
 
 .modal-container {
   background-color: rgba(0, 0, 0, 0.8);
@@ -142,6 +157,41 @@ body {
 .monster {
   margin: 0 auto;
   max-width: 114rem; }
+  .monster__icons {
+    max-width: 114rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3rem;
+    margin: 0 auto;
+    margin-top: 4rem; }
+    @media only screen and (max-width: 56.25em) {
+      .monster__icons {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 6rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .monster__icons {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 4rem; } }
+    .monster__icons-box {
+      text-align: center; }
+      .monster__icons-box--heading {
+        color: white;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 1rem; }
+      .monster__icons-box--icon {
+        filter: drop-shadow(5px 5px 5px #222);
+        width: 100% !important;
+        transition: all .3s; }
+        .monster__icons-box--icon:hover {
+          cursor: pointer;
+          filter: drop-shadow(5px 5px 5px #335f0e); }
+        @media only screen and (max-width: 56.25em) {
+          .monster__icons-box--icon {
+            width: 70% !important; } }
+        @media only screen and (max-width: 37.5em) {
+          .monster__icons-box--icon {
+            width: 100% !important; } }
   .monster__details {
     color: #fff;
     border-radius: 5px;
@@ -157,9 +207,11 @@ body {
     .monster__details--render-img {
       filter: drop-shadow(5px 5px 5px #222);
       display: block;
-      width: 100%; }
+      width: 100%;
+      transition: all .3s; }
       .monster__details--render-img:hover {
-        cursor: pointer; }
+        cursor: pointer;
+        filter: drop-shadow(5px 5px 5px #335f0e); }
     .monster__details--info {
       background-color: #222222;
       display: block;
@@ -169,7 +221,8 @@ body {
       font-size: 3rem; }
     .monster__details--text {
       color: #fff;
-      font-size: 1.7rem; }
+      font-size: 1.7rem;
+      display: block; }
       .monster__details--text-main {
         color: #76bb3e; }
       .monster__details--text:not(:last-child) {
@@ -196,8 +249,6 @@ body {
       text-align: center; }
     .monster__location--img {
       display: block;
-      backface-visibility: hidden;
-      display: block;
       width: 100% !important;
       transition: all .3s; }
       .monster__location--img:hover {
@@ -205,7 +256,7 @@ body {
 
 .footer {
   display: none;
-  padding: 2rem 0;
+  padding: 4rem 0;
   text-align: center; }
   .footer__text {
     color: #fff;

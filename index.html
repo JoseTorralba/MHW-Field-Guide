@@ -21,7 +21,7 @@
     </div>
 
     <h1 class="primary-heading">Monster Hunter World API</h1>
-
+        
     <!-- Options to retrieve Monster data -->
     <div class="options">
         <select name="Monster List" class="options__list" id="monster-value">
@@ -31,10 +31,16 @@
     </div>
 
     <!-- Monster data displays here -->
-    <div class="monster" id="monster-container"></div>
+    <div class="monster" id="monster-container">
+        <p class="instructions">You can also choose a Monster icon below if it catches your interest.</p>
+    </div>
+
+    <!-- Monster Icon data displays here -->
+    <div class="monster__icons" id="monster-icon-container"></div>
 
     <footer class="footer">
-        <p class="footer__text">&copy; 2019 Designed & Developed by <a href="#" class="footer__text-link">Jose Torralba</a>
+        <p class="footer__text">&copy; 2019 Designed & Developed by 
+            <a href="http://torralbajose.com/" target="_blank" class="footer__text-link">Jose Torralba</a>
         </p>
     </footer>
     <script src="js/app.js"></script>

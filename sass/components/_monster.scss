@@ -1,8 +1,58 @@
-.monster {    
+.monster {
     margin: 0 auto;
-    max-width: 114rem;
-    // z-index: 999;    
+    max-width: 114rem; 
 
+    // ICONS
+    &__icons {
+        max-width: 114rem;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 3rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+    
+        @include respond(tablet-portrait) {
+            grid-template-columns: repeat(3, 1fr);
+            padding: 0 6rem;
+        }
+
+        @include respond(phone) {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0 4rem;
+        }
+
+        &-box {
+            text-align: center;
+
+            &--heading {
+                color: white;
+                font-size: 1.8rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+    
+            &--icon {
+                filter: drop-shadow(5px 5px 5px #222);
+                width: 100% !important;
+                transition: all .3s;
+
+                &:hover {
+                    cursor: pointer;
+                    filter: drop-shadow(5px 5px 5px $primary-color-dark);
+                }
+
+                @include respond(tablet-portrait) {
+                    width: 70% !important;
+                }
+
+                @include respond(phone) {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    // INFORMATION
     &__details {
         color: #fff;
         border-radius: 5px;
@@ -22,9 +72,11 @@
                 filter: drop-shadow(5px 5px 5px #222);
                 display: block;
                 width: 100%;
+                transition: all .3s;
 
                 &:hover {
                     cursor: pointer;
+                    filter: drop-shadow(5px 5px 5px $primary-color-dark);
                 }
             }
         }
@@ -43,6 +95,7 @@
         &--text {
             color: #fff;
             font-size: 1.7rem;
+            display: block;
 
             &-main {
                 color: $primary-color;
@@ -54,8 +107,8 @@
         }
     }
 
+    // LOCATIONS
     &__location {
-        // background-color: #4b4b4b;
         color: #fff;
         border-radius: 5px;
         display: grid;
@@ -71,9 +124,6 @@
             padding: 0 1rem;
         }
 
-        // @include respond(smaller-phone) {
-        //     padding: 0 1rem;
-        // }
 
         @include respond(older-phone) {
             grid-template-columns: repeat(1, 1fr);
@@ -87,15 +137,11 @@
 
         &--img {
             display: block;
-            backface-visibility: hidden;
-            // border: 4px solid transparent;
-            display: block;
             width: 100% !important;
             transition: all .3s;
-
+            
             &:hover {
                 cursor: pointer;
-                // border: 4px solid $primary-color;
             }
         }
     }
