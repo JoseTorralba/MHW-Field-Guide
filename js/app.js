@@ -4,8 +4,6 @@ var getMonsterIconContainer = document.getElementById('monster-icon-container');
 var randomMonster = document.getElementById('random-monster');
 var monsterValue = document.getElementById('monster-value');
 
-var getFooter = document.querySelector('.footer');
-
 // Returned Json Data
 let monsterObj = {};
 
@@ -41,14 +39,13 @@ randomMonster.addEventListener('click', () => {
 
 // Displays Monster in the HTML
 function getMonsterData(monsterID) {
+
     scrollToTop();
+
     // Hides Previous Result
     getMonsterContainer.innerHTML = "";
     getMonsterIconContainer.style.display = "none";
     // console.log(monsterObj.length)
-
-    // Displays Footer
-    getFooter.style.display = 'block';
 
     for (var i = 0; i < monsterObj.length; i++) {
         if (monsterObj[i].name == monsterID) {

@@ -255,7 +255,6 @@ body {
         cursor: pointer; }
 
 .footer {
-  display: none;
   padding: 4rem 0;
   text-align: center; }
   .footer__text {
