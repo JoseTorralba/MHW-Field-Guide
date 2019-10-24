@@ -130,23 +130,38 @@ function getMonsterData(monsterID) {
     }
 }
 
-// Last thing to fix
+// Function will Shuffle Array Items
+function shuffle(array) {
+    var randomIndex, temp, i;
+
+    for (i = array.length - 1; i > 0; i--) {
+        
+        randomIndex = Math.floor(Math.random() * (i + 1));
+        temp = array[i];
+        array[i] = array[randomIndex];
+        array[randomIndex] = temp;
+    }
+    return array;
+}
+
+// Displays Random Monster Icons
 function displayMonsterIcon() {
+
+    // This is Needed to Randomize
+    var randomMonsterIcon = shuffle(monsterObj) 
 
     for (var i = 0; i < 12; i++) {
 
-        var randomizer = Math.floor(Math.random() * monsterObj.length);
-        var randomizedMonster = monsterObj[randomizer];
-
-        // console.log(randomizedMonster)
+        var randomMonsterIcon = shuffle(monsterObj[i]) 
+        // console.log(randomMonsterIcon)
 
         // Creates Div Then Contains Monster Icon Info
         var displayMonster = document.createElement('div')
         displayMonster.classList.add('monster__icons-box');
 
         displayMonster.innerHTML = `
-            <p class="monster__icons-box--heading">${randomizedMonster.name}</p>
-            <img src="${randomizedMonster.icon}" class="monster__icons-box--icon" alt="${randomizedMonster.name}">
+            <p class="monster__icons-box--heading">${randomMonsterIcon.name}</p>
+            <img src="${randomMonsterIcon.icon}" class="monster__icons-box--icon" alt="${randomMonsterIcon.name}">
         `;
         getMonsterIconContainer.appendChild(displayMonster);
     }
@@ -190,7 +205,6 @@ function toggleModal(imgTarget) {
     window.onclick = function(event) {
         if (event.target == getModalContainer || event.target == getModalImg || event.target == getModalToggle) {
             fadeOutAnimation(getModalContainer, 'fadeOut')
-            console.log(event.target)
         }
     }
 }
