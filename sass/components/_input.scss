@@ -13,7 +13,7 @@
         max-width: 75%;
     }
 
-    &__list {
+    &__monster-list {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -40,7 +40,7 @@
         }
     }
 
-    &__btn {
+    &__monster-btn {
         &:link,
         &:visited {
             border: 2px solid #fff;

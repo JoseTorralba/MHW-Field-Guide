@@ -1,51 +1,55 @@
 // Gets Monster Container & Select Input, Select Value & Submit/Random Button
-var getMonsterContainer = document.getElementById('monster-container');
-var getMonsterIconContainer = document.getElementById('monster-icon-container');
-var randomMonster = document.getElementById('random-monster');
-var monsterValue = document.getElementById('monster-value');
+var getMonsterContainer = document.querySelector('.monster');
+var getMonsterIconContainer = document.querySelector('.monster__icons');
 
-// Returned Json Data
-let monsterObj = {};
+var monsterBtn = document.querySelector('.options__monster-btn');
+var monsterValue = document.querySelector('.options__monster-list');
+
+var getModalContainer = document.querySelector('.modal-container');
+var getModalToggle = document.querySelector('.modal-container__toggle--icon');
+var getModalImg = document.querySelector('.modal-container__img')
+
+// let monsterObj = {};
 
 // Monster Hunter API json
 function fetchMonsterData() {
     fetch('./js/monsters.json')
 
-    .then(result => {
-        return result.json();
-    })
+    .then(result => { return result.json(); })
+
     .then(data => {
         monsterObj = data;
         displayOptions();
         displayMonsterIcon();
+        monsterIconOnClick();
+
     })
     .catch(error => console.log(error));
 };
-
 fetchMonsterData();
 
-// Keeps track of option in selection when changed
+// Option Value on Change & Random Button on Click. Both Return Monster Data.
 monsterValue.addEventListener('change', () => getMonsterData(monsterValue.value));
+monsterBtn.addEventListener('click', () => getRandomMonsterData());
 
-// Random Button, Returns Random Monster
-randomMonster.addEventListener('click', () => {
+
+function getRandomMonsterData() {
     var randomizer = Math.floor(Math.random() * monsterObj.length);
     var randomizedMonster = monsterObj[randomizer].name;
-    console.log(randomizedMonster)
-    getMonsterData(randomizedMonster)
 
     monsterValue.value = randomizedMonster;
-});
+    getMonsterData(randomizedMonster)
+}
+
 
 // Displays Monster in the HTML
 function getMonsterData(monsterID) {
-
     scrollToTop();
+    fadeInAnimation(getMonsterContainer, 'fadeUp')
 
     // Hides Previous Result
     getMonsterContainer.innerHTML = "";
     getMonsterIconContainer.style.display = "none";
-    // console.log(monsterObj.length)
 
     for (var i = 0; i < monsterObj.length; i++) {
         if (monsterObj[i].name == monsterID) {
@@ -117,21 +121,23 @@ function getMonsterData(monsterID) {
 
             // Enlarges Monster Render
             var monsterRender = document.querySelector('.monster__details--render-img');
-            viewImage(monsterRender)
+            toggleModal(monsterRender)
 
             // Enlarges Locale Image
             var localeImg = document.querySelectorAll('.monster__location--img');
-            localeImg.forEach((localeImg) => viewImage(localeImg)) 
+            localeImg.forEach((localeImg) => toggleModal(localeImg)) 
         }
     }
 }
 
+// Last thing to fix
 function displayMonsterIcon() {
-    
+
     for (var i = 0; i < 12; i++) {
-        
-        var r = Math.floor(Math.random() * monsterObj.length);
-        var randomizedMonster = monsterObj[r];
+
+        var randomizer = Math.floor(Math.random() * monsterObj.length);
+        var randomizedMonster = monsterObj[randomizer];
+
         // console.log(randomizedMonster)
 
         // Creates Div Then Contains Monster Icon Info
@@ -144,19 +150,23 @@ function displayMonsterIcon() {
         `;
         getMonsterIconContainer.appendChild(displayMonster);
     }
+}
 
-    // Monster Icons on Click
+
+// Monster Icons on Click
+function monsterIconOnClick() {
     var monsterIcon = document.querySelectorAll('.monster__icons-box--icon');
     monsterIcon.forEach(function (monsterIcon) {
         monsterIcon.addEventListener('click', function() {
-            console.log(monsterIcon.alt)
+
             getMonsterData(monsterIcon.alt)
             monsterValue.value = monsterIcon.alt;
         })
     });
 }
 
-// Creates Options for Select Element
+
+// Creates Monster Names Added into the Select Element
 function displayOptions() {
     for (let i = 0; i < monsterObj.length; i++) {
         var createOption = document.createElement('option');
@@ -168,40 +178,28 @@ function displayOptions() {
 }
 
 
-function viewImage(imgTarget) {
-    var getModalContainer = document.getElementById('modal-container');
-    var getModalImg = document.getElementById('modal-img')
+// Toggles Image Modal
+function toggleModal(imgTarget) {
 
     imgTarget.addEventListener('click', () => {
+        fadeInAnimation(getModalContainer, 'fadeIn')
         getModalContainer.style.display = 'block';
         getModalImg.src = event.target.src
-        console.log(event.target.src)
     })
 
-    // Get's Modal Toggle & Removes Modal when Toggle is Clicked
-    const getModalToggle = document.querySelector('.modal-container__toggle--icon');
-
-    getModalToggle.addEventListener('click', () => {
-        getModalContainer.style.display = 'none';
-        getModalImg.src = "";
-    })
-
-    // Get image id and onclick, remove modal
     window.onclick = function(event) {
-        if (event.target == getModalContainer || event.target == getModalImg) {
-            getModalContainer.style.display = "none";
-            getModalImg.src = "";
+        if (event.target == getModalContainer || event.target == getModalImg || event.target == getModalToggle) {
+            fadeOutAnimation(getModalContainer, 'fadeOut')
+            console.log(event.target)
         }
     }
 }
 
 
-// Gradient & Image Background
+// Gradient & Random Image Background
 function randomBackgroundImage() {
     var randombackground = Math.round(Math.random() * 6);
     var backgroundGradient = "linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1)),";
-
-    // Random Background
     var backgroundImages = [
         "url(img/locale/ancient-forest.jpg)",
         "url(img/locale/wildspire-waste.jpg)",
@@ -211,12 +209,10 @@ function randomBackgroundImage() {
         "url(img/locale/hoarfrost-reach.jpg)",
         "url(img/locale/guiding-lands.jpg)"
     ];
-
-    // Displays Background Image & Gradient
     document.body.style.backgroundImage = backgroundGradient + backgroundImages[randombackground];
 }
-
 randomBackgroundImage()
+
 
 // Scrolls to top
 const scrollToTop = () => {
@@ -226,3 +222,20 @@ const scrollToTop = () => {
         window.scrollTo(0, screenHeight - screenHeight / 8);
     }
 };
+
+
+// Fade In & Out Animations
+function fadeOutAnimation(target, type) {
+    target.classList.add(type);
+
+    setTimeout( () => { 
+        target.classList.remove(type);
+        target.style.display = 'none';
+        target.src = "";
+    }, 300);
+}
+
+function fadeInAnimation(target, type) {
+    target.classList.add(type);
+    setTimeout( () => { target.classList.remove(type) }, 400);
+}

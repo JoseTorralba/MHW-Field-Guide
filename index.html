@@ -12,31 +12,34 @@
 <body>
     <!-- Image Modal -->
     <div class="modal-container" id="modal-container">
-        <div class="modal-container__toggle">
-            <i class="modal-container__toggle--icon fas fa-times" aria-hidden="true"></i>
-        </div>
+
         <div class="modal-container__content">
+            <div class="modal-container__toggle">
+                <i class="modal-container__toggle--icon fas fa-times" aria-hidden="true"></i>
+            </div>
             <img class="modal-container__img" id="modal-img">
         </div>
     </div>
 
     <h1 class="primary-heading">Monster Hunter World API</h1>
         
+
     <!-- Options to retrieve Monster data -->
     <div class="options">
-        <select name="Monster List" class="options__list" id="monster-value">
+        <select name="Monster List" class="options__monster-list">
             <option disabled selected>Select a Monster...</option>
         </select>
-        <a href="#" class="options__btn" id="random-monster">Random Monster</a>
+        <a href="#" class="options__monster-btn">Random Monster</a>
     </div>
 
+
     <!-- Monster data displays here -->
-    <div class="monster" id="monster-container">
+    <div class="monster">
         <p class="instructions">You can also choose a Monster icon below if it catches your interest.</p>
     </div>
 
     <!-- Monster Icon data displays here -->
-    <div class="monster__icons" id="monster-icon-container"></div>
+    <div class="monster__icons"></div>
 
     <footer class="footer">
         <p class="footer__text">&copy; 2019 Designed & Developed by 
