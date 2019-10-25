@@ -4,9 +4,6 @@
 
     // ICONS
     &__icons {
-        animation-name: fadeIn;
-        animation-duration: .4s;
-        animation-timing-function: ease-in-out;
         max-width: 114rem;
         display: grid;
         grid-template-columns: repeat(6, 1fr);

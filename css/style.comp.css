@@ -19,6 +19,10 @@
     opacity: 0;
     display: none; } }
 
+@keyframes loadingSpinner {
+  to {
+    transform: rotate(360deg); } }
+
 *,
 *::after,
 *::before {
@@ -108,7 +112,23 @@ body {
 
 .fadeOut {
   animation-name: fadeOut;
-  animation-duration: .4s; }
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out; }
+
+.loading::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75px;
+  height: 75px;
+  margin-top: -45px;
+  margin-left: -45px;
+  border-radius: 50%;
+  border-top: 2.5px solid #76bb3e;
+  border-right: 2.5px solid transparent;
+  animation: loadingSpinner 0.7s linear infinite; }
 
 .options {
   font-size: 1.6rem;
@@ -196,9 +216,6 @@ body {
   margin: 0 auto;
   max-width: 114rem; }
   .monster__icons {
-    animation-name: fadeIn;
-    animation-duration: .4s;
-    animation-timing-function: ease-in-out;
     max-width: 114rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -299,6 +316,7 @@ body {
         cursor: pointer; }
 
 .footer {
+  display: none;
   padding: 4rem 0;
   text-align: center; }
   .footer__text {

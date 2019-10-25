@@ -9,7 +9,7 @@ var getModalContainer = document.querySelector('.modal-container');
 var getModalToggle = document.querySelector('.modal-container__toggle--icon');
 var getModalImg = document.querySelector('.modal-container__img')
 
-// let monsterObj = {};
+var getFooter = document.querySelector('.footer')
 
 // Monster Hunter API json
 function fetchMonsterData() {
@@ -21,8 +21,6 @@ function fetchMonsterData() {
         monsterObj = data;
         displayOptions();
         displayMonsterIcon();
-        monsterIconOnClick();
-
     })
     .catch(error => console.log(error));
 };
@@ -44,90 +42,98 @@ function getRandomMonsterData() {
 
 // Displays Monster in the HTML
 function getMonsterData(monsterID) {
+
     scrollToTop();
-    fadeInAnimation(getMonsterContainer, 'fadeUp')
 
     // Hides Previous Result
     getMonsterContainer.innerHTML = "";
+    getMonsterContainer.classList.add('loading')
     getMonsterIconContainer.style.display = "none";
+    getFooter.style.display = 'none'
 
-    for (var i = 0; i < monsterObj.length; i++) {
-        if (monsterObj[i].name == monsterID) {
+    setTimeout( () => { 
+        getMonsterContainer.classList.remove('loading')
+        getFooter.style.display = 'block'
+        fadeInAnimation(getMonsterContainer, 'fadeUp');
 
-            // Creates Div Then Contains Monster Info
-            var displayMonster = document.createElement('div')
-            displayMonster.classList.add('monster__details');
-
-            displayMonster.innerHTML = `
-                <div class="monster__details--render">
-                    <img src="${monsterObj[i].render}" class="monster__details--render-img">
-                </div>
-                <div class="monster__details--info">
-                    <h2 class="monster__details--heading">${monsterObj[i].name}</h2>
-                    <p class="monster__details--text">${monsterObj[i].description}</p>
-
-                    <p class="monster__details--text">
-                        <span class="monster__details--text-main">Useful Information: </span>
-                        ${monsterObj[i].useful_info}
-                    </p>
-                    <p class="monster__details--text">
-                        <span class="monster__details--text-main">Species: </span>
-                        ${monsterObj[i].species}
-                    </p>
-                    <p class="monster__details--text">
-                        <span class="monster__details--text-main">Elements: </span>
-                        ${monsterObj[i].elements.join(', ')}
-                    </p>
-                    <p class="monster__details--text">
-                        <span class="monster__details--text-main">Ailments: </span>
-                        ${monsterObj[i].ailments.join(', ')}
-                    </p>
-                    <p class="monster__details--text">
-                        <span class="monster__details--text-main">Weakness: </span>
-                        ${monsterObj[i].weakness.join(', ')}
-                    </p>
-                    <p class="monster__details--text">
-                        <span class="monster__details--text-main">Resistances: </span>
-                        ${monsterObj[i].resistances.join(', ')}
-                    </p>
-                </div>
-            `;
-            getMonsterContainer.appendChild(displayMonster);
-
-
-            // Creates Location Heading
-            var locationHeadingDiv = document.createElement('div');
-            locationHeadingDiv.innerHTML = `<h2 class="secondary-heading">Locations</h2>`;
-            getMonsterContainer.appendChild(locationHeadingDiv);
-
-
-            // Creates Div Then Contains Monster Locale Info
-            var displayLocale = document.createElement('div');
-            displayLocale.classList.add('monster__location');
-
-
-            // Creates Div for Every Single Locale Image/Name
-            for (var l = 0; l < monsterObj[i].locations.length; l++) {
-
-                var localeContainer = document.createElement('div')
-                localeContainer.innerHTML = `
-                    <p class="monster__location--name">${monsterObj[i].locations[l].name}</p>
-                    <img src="${monsterObj[i].locations[l].img}" class="monster__location--img">
+        for (var i = 0; i < monsterObj.length; i++) {
+            if (monsterObj[i].name == monsterID) {
+    
+                // Creates Div Then Contains Monster Info
+                var displayMonster = document.createElement('div')
+                displayMonster.classList.add('monster__details');
+    
+                displayMonster.innerHTML = `
+                    <div class="monster__details--render">
+                        <img src="${monsterObj[i].render}" class="monster__details--render-img">
+                    </div>
+                    <div class="monster__details--info">
+                        <h2 class="monster__details--heading">${monsterObj[i].name}</h2>
+                        <p class="monster__details--text">${monsterObj[i].description}</p>
+    
+                        <p class="monster__details--text">
+                            <span class="monster__details--text-main">Useful Information: </span>
+                            ${monsterObj[i].useful_info}
+                        </p>
+                        <p class="monster__details--text">
+                            <span class="monster__details--text-main">Species: </span>
+                            ${monsterObj[i].species}
+                        </p>
+                        <p class="monster__details--text">
+                            <span class="monster__details--text-main">Elements: </span>
+                            ${monsterObj[i].elements.join(', ')}
+                        </p>
+                        <p class="monster__details--text">
+                            <span class="monster__details--text-main">Ailments: </span>
+                            ${monsterObj[i].ailments.join(', ')}
+                        </p>
+                        <p class="monster__details--text">
+                            <span class="monster__details--text-main">Weakness: </span>
+                            ${monsterObj[i].weakness.join(', ')}
+                        </p>
+                        <p class="monster__details--text">
+                            <span class="monster__details--text-main">Resistances: </span>
+                            ${monsterObj[i].resistances.join(', ')}
+                        </p>
+                    </div>
                 `;
-                
-                displayLocale.appendChild(localeContainer);
-                getMonsterContainer.appendChild(displayLocale);
+                getMonsterContainer.appendChild(displayMonster);
+    
+    
+                // Creates Location Heading
+                var locationHeadingDiv = document.createElement('div');
+                locationHeadingDiv.innerHTML = `<h2 class="secondary-heading">Locations</h2>`;
+                getMonsterContainer.appendChild(locationHeadingDiv);
+    
+    
+                // Creates Div Then Contains Monster Locale Info
+                var displayLocale = document.createElement('div');
+                displayLocale.classList.add('monster__location');
+    
+    
+                // Creates Div for Every Single Locale Image/Name
+                for (var l = 0; l < monsterObj[i].locations.length; l++) {
+    
+                    var localeContainer = document.createElement('div')
+                    localeContainer.innerHTML = `
+                        <p class="monster__location--name">${monsterObj[i].locations[l].name}</p>
+                        <img src="${monsterObj[i].locations[l].img}" class="monster__location--img">
+                    `;
+                    
+                    displayLocale.appendChild(localeContainer);
+                    getMonsterContainer.appendChild(displayLocale);
+                }
+    
+                // Enlarges Monster Render
+                var monsterRender = document.querySelector('.monster__details--render-img');
+                toggleModal(monsterRender)
+    
+                // Enlarges Locale Image
+                var localeImg = document.querySelectorAll('.monster__location--img');
+                localeImg.forEach((localeImg) => toggleModal(localeImg)) 
             }
-
-            // Enlarges Monster Render
-            var monsterRender = document.querySelector('.monster__details--render-img');
-            toggleModal(monsterRender)
-
-            // Enlarges Locale Image
-            var localeImg = document.querySelectorAll('.monster__location--img');
-            localeImg.forEach((localeImg) => toggleModal(localeImg)) 
         }
-    }
+    }, 600);
 }
 
 // Function will Shuffle Array Items
@@ -148,23 +154,34 @@ function shuffle(array) {
 function displayMonsterIcon() {
 
     // This is Needed to Randomize
-    var randomMonsterIcon = shuffle(monsterObj) 
+    var randomMonsterIcon = shuffle(monsterObj);
+    getMonsterIconContainer.classList.add('loading')
 
-    for (var i = 0; i < 12; i++) {
+    setTimeout(() => {
+        getMonsterIconContainer.classList.remove('loading')
+        getMonsterIconContainer.classList.add('fadeIn')
+        getMonsterIconContainer.style.animationDuration = '.5s';
 
-        var randomMonsterIcon = shuffle(monsterObj[i]) 
-        // console.log(randomMonsterIcon)
 
-        // Creates Div Then Contains Monster Icon Info
-        var displayMonster = document.createElement('div')
-        displayMonster.classList.add('monster__icons-box');
+        for (var i = 0; i < 12; i++) {
 
-        displayMonster.innerHTML = `
+            var randomMonsterIcon = shuffle(monsterObj[i]) 
+            // console.log(randomMonsterIcon)
+
+            // Creates Div Then Contains Monster Icon Info
+            var displayMonster = document.createElement('div')
+            displayMonster.classList.add('monster__icons-box');
+
+            displayMonster.innerHTML = `
             <p class="monster__icons-box--heading">${randomMonsterIcon.name}</p>
             <img src="${randomMonsterIcon.icon}" class="monster__icons-box--icon" alt="${randomMonsterIcon.name}">
-        `;
-        getMonsterIconContainer.appendChild(displayMonster);
-    }
+            `;
+            getMonsterIconContainer.appendChild(displayMonster);
+
+        }
+        monsterIconOnClick()
+        
+    }, 800);
 }
 
 
@@ -245,7 +262,7 @@ function fadeOutAnimation(target, type) {
     setTimeout( () => { 
         target.classList.remove(type);
         target.style.display = 'none';
-        target.src = "";
+        // target.src = "";
     }, 300);
 }
 

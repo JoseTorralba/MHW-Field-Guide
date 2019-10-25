@@ -13,5 +13,21 @@
 .fadeOut {
     animation-name: fadeOut;
     animation-duration: .4s;
-    // animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+.loading::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75px;
+    height: 75px;
+    margin-top: -45px;
+    margin-left: -45px;
+    border-radius: 50%;
+    border-top: 2.5px solid $primary-color;
+    border-right: 2.5px solid transparent;
+    animation: loadingSpinner 0.7s linear infinite;
 }
