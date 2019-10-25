@@ -133,7 +133,7 @@ function getMonsterData(monsterID) {
                 localeImg.forEach((localeImg) => toggleModal(localeImg)) 
             }
         }
-    }, 600);
+    }, 800);
 }
 
 // Function will Shuffle Array Items
