@@ -24,3 +24,27 @@
         @media only screen and (min-width: 112.5em) { @content }; // 1800px
     }
 }
+
+// Clears Float
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin clipPath($top-left-x, $top-left-y, $top-right-x, $top-right-y, $bottom-right-x, $bottom-right-y, $bottom-left-x, $bottom-left-y) {
+    @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon($top-left-x $top-left-y, $top-right-x $top-right-y, $bottom-right-x $bottom-right-y, $bottom-left-x $bottom-left-y);
+        clip-path: polygon($top-left-x $top-left-y, $top-right-x $top-right-y, $bottom-right-x $bottom-right-y, $bottom-left-x $bottom-left-y);
+    }
+}
+
+@mixin addWidth {
+    max-width: 114rem;
+    margin: 0 auto;
+
+
+}
+

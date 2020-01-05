@@ -31,3 +31,9 @@
     border-right: 2.5px solid transparent;
     animation: loadingSpinner 0.7s linear infinite;
 }
+
+.monsterHeaderWidth {
+    animation-name: monsterHeaderWidth;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+}

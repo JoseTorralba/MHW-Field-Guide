@@ -10,7 +10,10 @@
 
     @include respond(tablet-portrait) {
         grid-template-columns: repeat(1, 1fr);
-        max-width: 75%;
+    }
+
+    @include respond(tablet-portrait) {
+        padding: 0 6rem;
     }
 
     &__monster-list {

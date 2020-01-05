@@ -5,14 +5,11 @@
         "icon": "img/icon/acidic_glavenus_icon.png",
         "species": "Brute Wyvern",
         "description": "A subspecies of Glavenus found in the Rotten Vale. A corrosive fluid has crystallized on its tail, spraying acid with each swing.",
-
         "useful_info": "The acid on its tail will lower a hunter's defenses on contact, and spreads with time, increasing the range of its spray. Scrape it off and the tail blade only grows sharper.",
-
         "elements": ["None"],
         "ailments": ["Defense Down"],
         "resistances": ["None"],
-        "weakness": ["Fire (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;) When Normal", "Dragon (&#9733;) When Crystallized", "Thunder (&#9733;&#9733;)", "Water (&#9733;)", "Ice (&#9733;)"],
-
+        "weakness": ["Fire (&#9733;&#9733;&#9733;)", "Dragon in normal state (&#9733;&#9733;)", "Dragon when crystallized (&#9733;)", "Thunder (&#9733;&#9733;)", "Water (&#9733;)", "Ice (&#9733;)"],
         "locations": [
             {
                 "name": "Rotten Vale",
@@ -26,14 +23,31 @@
     },
 
     {
+        "name": "Ancient Leshen",
+        "render": "img/render/ancient_leshen.png",
+        "icon": "img/icon/ancient_leshen_icon.png",
+        "species": "Relict",
+        "description": "An old Leshen that arrived through a portal to assume control over the Ancient Forest. Sometimes revered as an indigenous deity.",
+        "useful_info": "Ancient Leshens use their wisdom and tactical knowledge to curse hunters and send packs of wild Jagras after them.",
+        "elements": ["None"],
+        "ailments": ["Bleeding"],
+        "resistances": ["Water", "Sleep"],
+        "weakness": ["Fire (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Ice(&#9733;)"],
+        "locations": [
+            {
+                "name": "Ancient Forest",
+                "img": "img/locale/ancient-forest.jpg"
+            }
+        ]
+    },
+
+    {
         "name": "Anjanath",
         "render": "img/render/anjanath.png",
         "icon": "img/icon/anjanath_icon.png",
         "species": "Fanged Wyvern",
         "description": "The Anjanath patrols the Ancient Forest looking for its favorite meal, Aptonoth. This belligerent monster will attack anything without hesitation.",
-
         "useful_info": "Anjanath spits fiery blasts from its mouth utilizing a unique organ in its throat. Focusing attacks on its throat will make battling it much easier.",
-        
         "elements": ["Fire"],
         "ailments": ["Fireblight"],
         "resistances": ["Fire"],
@@ -60,15 +74,12 @@
         "render": "img/render/azure_rathalos.png",
         "icon": "img/icon/azure_rathalos_icon.png",
         "species": "Flying Wyvern",
-        "description": "An Azure colored Subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
-
+        "description": "An azure colored subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill.",
         "useful_info": "Counter its airborne onslaught by observing its flight patterns and finding the right moment to knock it out of the sky. Once grounded, it loses its ability to perform consecutive attacks, making the fight much easier.",
-        
         "elements": ["Fire"],
         "ailments": ["Fireblight", "Poison", "Stun"],
         "resistances": ["Fire"],
         "weakness": ["Dragon (&#9733;&#9733;&#9733;)", "Ice (&#9733;&#9733;)"],
-
         "locations": [
             {
                 "name": "Ancient Forest",
@@ -91,14 +102,11 @@
         "icon": "img/icon/banbaro_icon.png",
         "species": "Brute Wyvern",
         "description": "A monster marked by its furious charge and by the majestic twin horns that uproot trees and gouge at the earth as it runs.",
-
         "useful_info": "Blows to the Banbaro's legs are an effective counter to its deadly charge. Hunters have also reported that firing scatternuts or crystalburst mid-charge can halt the beast.",
-        
         "elements": ["Ice"],
-        "ailments": ["Iceblight (In Hoarfrost Reach)", "Waterblight (In Coral Highlands)", "Fireblight (In Elder's Recess)"],
+        "ailments": ["Iceblight in hoarfrost reach", "Waterblight in coral highlands", "Fireblight in elder's recess"],
         "resistances": ["Ice", "Water"],
         "weakness": ["Dragon (&#9733;&#9733;&#9733;)", "Fire (&#9733;&#9733;)", "Thunder (&#9733;)"],
-
         "locations": [
             {
                 "name": "Ancient Forest",
@@ -136,19 +144,20 @@
         "render": "img/render/barioth.png",
         "icon": "img/icon/barioth_icon.png",
         "species": "Flying Wyvern",
-        "description": "The snow white Flying Wyvern with huge tusks found in the frozen tundra. It uses its forelegs and tail to traverse ice with ease.",
-
+        "description": "The snow white flying wyvern with huge tusks found in the frozen tundra. It uses its forelegs and tail to traverse ice with ease.",
         "useful_info": "Break its tail, or especially its forelegs to mitigate both its offense and its mobility. The monster's hide is extremely tough, but fire elemental attacks should prove effective.",
-        
         "elements": ["Ice"],
         "ailments": ["Iceblight"],
         "resistances": ["Ice", "Water"],
         "weakness": ["Fire (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Dragon (&#9733;)"],
-
         "locations": [
             {
                 "name": "Hoarfrost Reach",
                 "img": "img/locale/hoarfrost-reach.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
             }
         ]
     },
@@ -159,12 +168,10 @@
         "icon": "img/icon/barroth_icon.png",
         "species": "Brute Wyvern",
         "description": "Barroth seek out ants, their favorite snack, and mark their territory with mud. They attack potential rivals with their devastating charging attack.",
-
         "useful_info": "While it uses hardened mud as armor, Barroth can also fling it off its body as an attack. Use water element weapons or your slinger to gradually knock off its mud.",
-        
         "elements": ["None"],
         "ailments": ["Waterblight"],
-        "resistances": ["Thunder", "Fire (With Mud)", "Water (No Mud)"],
+        "resistances": ["Thunder", "Fire with mud", "Water with no mud"],
         "weakness": ["Water (&#9733;&#9733;&#9733;) (With Mud)", "Fire (&#9733;&#9733;&#9733;) (No Mud)", "Ice (&#9733;&#9733;)"],
 
         "locations": [
@@ -287,6 +294,35 @@
         ]
     },
 
+    {
+        "name": "Blackveil Vaal Hazak",
+        "render": "img/render/blackveil_vaal_hazak.png",
+        "icon": "img/icon/blackveil_vaal_hazak_icon.png",
+        "species": "Elder Dragon",
+        "description": "A Vaal Hazak variant encrusted with spores that spew a torrent of toxic effluvium at any who draw close.",
+        "useful_info": "Damaging areas densely covered by spores appears to dull their activity as a whole. They also shield the monster from light: break the head to make flash pods work.",
+
+        "elements": ["None"],
+        "ailments": ["Effluvia"],
+        "resistances": ["Water"],
+        "weakness": ["Fire (&#9733;&#9733;)", "Dragon (&#9733;&#9733;)", "Ice(&#9733;)", "Thunder (&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Ancient Forest",
+                "img": "img/locale/ancient-forest.jpg"
+            },
+            {
+                "name": "Rotten Vale",
+                "img": "img/locale/rotten-vale.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }   
+        ]
+    },
+
 
     {
         "name": "Brachydios",
@@ -376,7 +412,7 @@
         "useful_info": "When enraged, Deviljho's swollen muscles glow a hellish red. It will start spewing a sweeping dragon element attack, so watch your distance. Deviljho stays on the attack even when wounded, but don't give up; keep fighting and you'll come out on top.",
         
         "elements": ["Dragon"],
-        "ailments": ["Dragonblight", "Defense Down", "Fireblight (On Lava Terrain)", "Iceblight (On Icy Terrain)", "Waterblight (On Water Terrain)", "Effluvial Buildup (In Rotten Vale)"],
+        "ailments": ["Dragonblight", "Defense Down", "Fireblight On Lava Terrain", "Iceblight On Icy Terrain", "Waterblight On Water Terrain", "Effluvial Buildup (In Rotten Vale)"],
         "resistances": ["None"],
         "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;&#9733;)", "Fire (&#9733;&#9733;)", "Water (&#9733;&#9733;)"],
 
@@ -915,7 +951,7 @@
         "species": "Flying Wyvern",
         "description": "Extremely agile, especially on the ground, this obsidian furred Flying Wyvern moves with explosive bursts of speed.",
 
-        "useful_info": "TNargacuga's speed dulls when exhausted, so luring it into turf wars with other monsters is effective. Take care when setting traps, as it will destroy pitfall traps when not enraged.",
+        "useful_info": "Nargacuga's speed dulls when exhausted, so luring it into turf wars with other monsters is effective. Take care when setting traps, as it will destroy pitfall traps when not enraged.",
         
         "elements": ["Ice"],
         "ailments": ["Iceblight"],
@@ -1269,6 +1305,73 @@
     },
 
     {
+        "name": "Ruiner Nergigante",
+        "render": "img/render/ruiner_nergigante.png",
+        "icon": "img/icon/ruiner_nergigante_icon.png",
+        "species": "Elder Dragon",
+        "description": "Countless battles have only hardened this Nergigante variant. In addition to healing, its spikes grow tougher as it loses health.",
+        "useful_info": "Like its cousins, it attacks with white and black spikes, but also possesses metallic spikes that do not regrow. Break them to greatly reduce the monster's lethality.",
+
+        "elements": ["None"],
+        "ailments": ["Bleeding"],
+        "resistances": ["None"],
+        "weakness": ["Dragon (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Ice(&#9733;)", "Water (&#9733;)", "Fire(&#9733;)"],
+
+        "locations": [ 
+            {
+                "name": "Ancient Forest",
+                "img": "img/locale/ancient-forest.jpg"
+            },
+            {
+                "name": "Wildspire Waste",
+                "img": "img/locale/wildspire-waste.jpg"
+            },
+            {
+                "name": "Rotten Vale",
+                "img": "img/locale/rotten-vale.jpg"
+            },
+            {
+                "name": "Coral Highlands",
+                "img": "img/locale/coral-highlands.jpg"
+            },
+            {
+                "name": "Elder's Recess",
+                "img": "img/locale/elders-recess.jpg"
+            },
+            {
+                "name": "Hoarfrost Reach",
+                "img": "img/locale/hoarfrost-reach.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "Safi'jiiva",
+        "render": "img/render/safi'jiiva.png",
+        "icon": "img/icon/safi'jiiva_icon.png",
+        "species": "Elder Dragon",
+        "description": "The fully-grown form of Xeno'jiiva. It absorbs energy from its environment to heal itself and change the ecosystem.",
+
+        "useful_info": "Its breath can be avoided by hiding behind obstacles. Drain its energy by breaking its parts and using the environment. Once it's cornered, work together to take it down.",
+
+        "elements": ["Fire", "Dragon"],
+        "ailments": ["Fireblight", "Dragonblight"],
+        "resistances": ["Sleep"],
+        "weakness": ["Dragon (Elderseal) (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Ice (&#9733;&#9733;)", "Water (&#9733;&#9733;)", "Fire (&#9733;&#9733;)", "Dragon (&#9733;&#9733;)"],
+
+        "locations": [
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
         "name": "Savage Deviljho",
         "render": "img/render/savage_deviljho.png",
         "icon": "img/icon/savage_deviljho_icon.png",
@@ -1315,6 +1418,33 @@
     },
 
     {
+        "name": "Scarred Yian Garuga",
+        "render": "img/render/scarred_yian_garuga.png",
+        "icon": "img/icon/scarred_yian_garuga_icon.png",
+        "species": "Bird Wyvern",
+        "description": "A tempered Yian Garuga that survived a grueling battle with just a scar on its head. Be careful of its successive breath attacks.",
+        
+        "useful_info": "Like the normal species, its head is easily breakable, and it's quick to run out of stamina. It behaves differently when flying short distances though, so be careful.",
+
+        "elements": ["Fire"],
+        "ailments": ["Fireblight", "Poison", "Stun"],
+        "resistances": ["Thunder", "Fire"],
+        "weakness": ["Water(&#9733;&#9733;&#9733;)", "Dragon(&#9733;&#9733;)", "Ice(&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Ancient Forest",
+                "img": "img/locale/ancient-forest.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+
+    {
         "name": "Seething Bazelgeuse",
         "render": "img/render/seething_bazelgeuse.png",
         "icon": "img/icon/seething_bazelgeuse_icon.png",
@@ -1335,6 +1465,28 @@
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
             },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "Shara Ishvalda",
+        "render": "img/render/shara_ishvalda.png",
+        "icon": "img/icon/shara_ishvalda_icon.png",
+        "species": "Elder Dragon",
+        "description": "A mysterious elder dragon able to manipulate the earth itself. Vibrations from its wingtips reshape the earth, denying hunters footing.",
+
+        "useful_info": "Hunters must begin by stripping its sturdy rock armor: bombs and falling rocks are two proven methods. Skills to counter tremors are a boon against its wingtip attacks.",
+
+        "elements": ["None"],
+        "ailments": ["Stun"],
+        "resistances": ["Fire", "Dragon", "Thunder"],
+        "weakness": ["Ice (&#9733;&#9733;&#9733;)", "Water (&#9733;&#9733;)"],
+
+        "locations": [
             {
                 "name": "The Guiding Lands",
                 "img": "img/locale/guiding-lands.jpg"
@@ -1385,6 +1537,36 @@
             {
                 "name": "Elder's Recess",
                 "img": "img/locale/elders-recess.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "Stygian Zinogre",
+        "render": "img/render/stygian_zinogre.png",
+        "icon": "img/icon/stygian_zinogre_icon.png",
+        "species": "Fanged Wyvern",
+        "description": "Has a symbiotic relationship with Dracophage Bugs, which it releases like bullets. Becomes even more dangerous when covered in light.",
+        
+        "useful_info": "Its powered up state is cancelled when it flinches or is toppled. When its hide toughens, it becomes more vulnerable to elemental attacks.",
+
+        "elements": ["Dragon"],
+        "ailments": ["Dragonblight"],
+        "resistances": ["Ice", "Fire", "Water", "Dragon"],
+        "weakness": ["Thunder(&#9733;&#9733;&#9733;)", "Fire(&#9733;&#9733;)", "Water (&#9733;&#9733;)"],
+
+        "locations": [
+            {
+                "name": "Elder's Recess",
+                "img": "img/locale/elders-recess.jpg"
+            },
+            {
+                "name": "Hoarfrost Reach",
+                "img": "img/locale/hoarfrost-reach.jpg"
             },
             {
                 "name": "The Guiding Lands",
@@ -1521,7 +1703,7 @@
         "render": "img/render/uragaan.png",
         "icon": "img/icon/uragaan_icon.png",
         "species": "Brute Wyvern",
-        "description": "TLarge Brute Wyverns that feed on ore, using their mighty jaw to crush solid rock to powder. They've been known to confront Lavasioths over territory disputes.",
+        "description": "Large Brute Wyverns that feed on ore, using their mighty jaw to crush solid rock to powder. They've been known to confront Lavasioths over territory disputes.",
 
         "useful_info": "A crushing slam from Uragaan's jaw can send shockwaves across the ground, detonating any explosive rocks in the area. In additionm when an Uragaan is toppled, its body can be mined for ore.",
 
@@ -1635,8 +1817,8 @@
         "render": "img/render/xenojiiva.png",
         "icon": "img/icon/xenojiiva_icon.png",
         "species": "Elder Dragon",
-        "description": "???",
-        "useful_info": "???",
+        "description": "A new species discovered in the depths of the Elder's Recess. Its relationship to the other elder dragons is unclear, as is its ecology.",
+        "useful_info": "Perhaps as a result of its inability to fully control its own incalculable power, Xeno'jiiva is prone to go into a rampage when its energy filled limbs take enough damage. Endure its rampage and you may be rewarded with a good opening for attacks.",
         "elements": ["Dragon"],
         "ailments": ["Fireblight", "Dragonblight"],
         "resistances": ["Sleep"],

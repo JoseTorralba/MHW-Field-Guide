@@ -33,3 +33,19 @@
         transform: rotate(360deg);
     }
 }
+
+// maybe try left later on?
+@keyframes monsterHeaderWidth {
+
+    from {
+        // width: 0;
+        left: -170rem;
+        opacity: 0;
+    }
+
+    to {
+        // width: 750px;
+        left: 0;
+        opacity: 1;
+    }
+}

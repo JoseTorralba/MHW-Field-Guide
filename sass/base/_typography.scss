@@ -1,11 +1,11 @@
 body {
-    font-family: 'Barlow', sans-serif;
-    line-height: 1.5;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Barlow', sans-serif;
     height: 100vh;
+    line-height: 1.5;
 
     @include respond(tablet-portrait) {
         background-attachment: scroll;
@@ -21,29 +21,10 @@ body {
     text-shadow: 0 1.5rem 3rem rgb(0, 0, 0);
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
+    @include respond(tablet-portrait) {
 
-// Location Heading
-.secondary-heading {
-    color: #fff;
-    font-size: 2.5rem;
-    max-width: 114rem;
-    margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 2rem 0;
-    text-align: center;
-    text-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-
-    @include respond(tablet-landscape) {
-        text-align: center;
-        margin: 2rem 0 2rem;
     }
 }
-
-// .Thunder{
-//     color: yellow
-// }
 
 .instructions {
     color: #fff;
@@ -53,12 +34,40 @@ body {
     padding: 4rem 0 0;
 
     @include respond(tablet-portrait) {
-        width: 50rem;
         margin: 0 auto;
+        width: 50rem;
     }
 
     @include respond(phone) {
-        width: 30rem;
         margin: 0 auto;
+        width: 30rem;
+    }
+}
+
+.secondary-heading {
+    height: 80px;
+    // text-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+
+    &--main {
+        color: #fff;
+        display: block;
+        font-size: 3rem;
+        padding-right: 4rem;
+
+        @include respond(phone) {
+            font-size: 2.2rem;
+            padding-right: 2rem;
+        }
+    }
+
+    &--sub {
+        color: $primary-color;
+        display: block;
+        font-size: 2rem;
+        padding-right: 4rem;
+
+        @include respond(phone) {
+            padding-right: 2rem;
+        }
     }
 }
