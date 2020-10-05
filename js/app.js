@@ -95,7 +95,6 @@ function getMonsterData(monsterID) {
                     <!-- Monster Header -->
                     <div class="heading-1">
                         <img src="${monsterObj[i].icon}" class="heading-1--icon">
-
                         <h2 class="secondary--heading">
                             <span class="secondary-heading--main">${monsterObj[i].name}</span>
                             <span class="secondary-heading--sub">${monsterObj[i].species}</span>
@@ -107,7 +106,6 @@ function getMonsterData(monsterID) {
                         <div class="monster__render">
                             <img src="${monsterObj[i].render}" class="monster__render--img">
                         </div>
-
                         <div class="monster__info">
                             <p class="monster__desc">
                                 <span class="monster__desc--subject">Ecology: </span>
@@ -161,7 +159,6 @@ function getMonsterData(monsterID) {
                             <span class="secondary-heading--sub">The New World</span>
                         </h2> 
                     </div>
-
                     <div class="locales__grid"></div>
                 `;
                 getLocaleDiv.appendChild(displayLocaleHeading);
@@ -186,7 +183,7 @@ function getMonsterData(monsterID) {
                 localeImg.forEach((localeImg) => toggleModal(localeImg)) 
             }
         }
-    }, 600);
+    }, 700);
 }
 
 // Creates Monster Names Added into the Select Element
@@ -265,16 +262,12 @@ function displayResults() {
     getLocaleSection.style.display = "block";
     getFooter.style.display = 'block';
     getMonsterInput.disabled = false;
-
+    fadeAnimation(getMonsterDiv, 'fadeUp', 'block', 400);
     // Removes Spinner
     getLoadingScreen.classList.remove('spinner');
 
-    fadeAnimation(getMonsterDiv, 'fadeUp', 'block', 400);
-
-
-    setTimeout( () => { 
-        $('html, body').animate({scrollTop: $('.section-monster').offset().top}, 600);
-    }, 100);
+    // Scrolls to Monster Section
+    $('html, body').animate({scrollTop: $('.section-monster').offset().top}, 300);
 };
 
 // Random Background Images
