@@ -3,34 +3,23 @@
     @if $breakpoint == older-phone {
         @media only screen and (max-width: 20em) { @content };
     }
-
     @if $breakpoint == smaller-phone {
-        @media only screen and (max-width: 28.75em) { @content };
+        @media only screen and (max-width: 25.875em) { @content };
     }
-    
     @if $breakpoint == phone {
-        @media only screen and (max-width: 37.5em) { @content }; // 600px
+        @media only screen and (max-width: 37.5em) { @content };
     }
-
     @if $breakpoint == tablet-portrait {
-        @media only screen and (max-width: 56.25em) { @content }; // 900px
+        @media only screen and (max-width: 56.25em) { @content };
     }
-
+    @if $breakpoint == tablet-mid {
+        @media only screen and (max-width: 66.56em) { @content };
+    }
     @if $breakpoint == tablet-landscape {
-        @media only screen and (max-width: 75em) { @content }; // 1200px
+        @media only screen and (max-width: 75em) { @content };
     }
-
     @if $breakpoint == big-desktop {
-        @media only screen and (min-width: 112.5em) { @content }; // 1800px
-    }
-}
-
-// Clears Float
-@mixin clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
+        @media only screen and (min-width: 112.5em) { @content };
     }
 }
 
@@ -41,10 +30,10 @@
     }
 }
 
-@mixin addWidth {
+@mixin defaultWidth {
     max-width: 114rem;
     margin: 0 auto;
-
-
+    @include respond(tablet-mid) { max-width: 95rem; }
+    @include respond(tablet-portrait) { max-width: 70rem; }
+    @include respond(phone) { max-width: 50rem; }
 }
-

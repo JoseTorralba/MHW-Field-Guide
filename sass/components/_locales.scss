@@ -1,0 +1,44 @@
+.locales {
+    position: relative;
+    
+    &__grid {
+        @include defaultWidth;
+        
+        color: #fff;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+
+        @include respond(tablet-portrait) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include respond(smaller-phone) {
+            padding: 0 1rem;
+        }
+
+        @include respond(older-phone) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__name {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    &__img {
+
+        border: 2px solid transparent;
+        display: block;
+        width: 100% !important;
+        transition: all .2s;
+        
+        &:hover {
+            cursor: pointer;
+            border: 2px solid $primary-color;
+        }
+    }
+}

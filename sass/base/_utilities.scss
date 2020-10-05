@@ -16,7 +16,13 @@
     animation-timing-function: ease-in-out;
 }
 
-.loading::before {
+.spinner {
+    background-color: rgba(0, 0, 0, 0.24);
+    height: 100vh;
+    width: 100%;
+}
+
+.spinner::before {
     content: "";
     box-sizing: border-box;
     position: absolute;
@@ -27,13 +33,28 @@
     margin-top: -45px;
     margin-left: -45px;
     border-radius: 50%;
-    border-top: 2.5px solid $primary-color;
-    border-right: 2.5px solid transparent;
-    animation: loadingSpinner 0.7s linear infinite;
+    border-top: 4.5px solid $primary-color;
+    border-right: 4.5px solid transparent;
+    animation: loadingSpinner .8s linear infinite;
+    z-index: 10;
+
+    @include respond(phone) {
+        top: 75%;
+    }
+
+    @include respond(smaller-phone) {
+        top: 80%;
+    }
 }
 
 .monsterHeaderWidth {
     animation-name: monsterHeaderWidth;
     animation-duration: .5s;
     animation-timing-function: ease-in-out;
+}
+
+.loading {
+    background-color: rgba(0, 0, 0, .7) !important;
+    position: absolute;
+    z-index: 9;
 }

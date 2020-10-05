@@ -1,6 +1,6 @@
 [
     {
-        "name": "Acidic Glavenus",
+        "name": "acidic glavenus",
         "render": "img/render/acidic_glavenus.png",
         "icon": "img/icon/acidic_glavenus_icon.png",
         "species": "Brute Wyvern",
@@ -23,7 +23,27 @@
     },
 
     {
-        "name": "Ancient Leshen",
+        "name": "alatreon",
+        "render": "img/render/alatreon.png",
+        "icon": "img/icon/alatreon_icon.png",
+        "species": "Elder Dragon",
+        "description": "Known as a symbol of destruction, people fear even uttering its name. It's rumored to control all of the elements, but most, if not all, records of its existence have been burned.",
+        "useful_info": "You can mitigate the damage Alatreon's powerful shockwave does by attacking it with an effective element. You can also use healing items during the shockwave, so get your Dust of Life, etc., ready.",
+        "elements": ["Dragon", "Ice", "Thunder", "Fire", "Water"],
+        "ailments": ["Waterblight", "Thunderblight", "Iceblight", "Fireblight", "Dragonblight"],
+        "resistances": ["Fire when Fire Active (Immune)", "Ice when Ice Active (Immune)", "dragon when dragon Active (Immune)"],
+
+        "weakness": ["Fire when Ice Active (&#9733;&#9733;&#9733;)", "Ice when Fire Active (&#9733;&#9733;&#9733;)", "Dragon when Dragon Active (&#9733;&#9733;)"],
+        "locations": [
+            {
+                "name": "Secluded Valley",
+                "img": "img/locale/secluded-valley.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "ancient leshen",
         "render": "img/render/ancient_leshen.png",
         "icon": "img/icon/ancient_leshen_icon.png",
         "species": "Relict",
@@ -42,7 +62,7 @@
     },
 
     {
-        "name": "Anjanath",
+        "name": "anjanath",
         "render": "img/render/anjanath.png",
         "icon": "img/icon/anjanath_icon.png",
         "species": "Fanged Wyvern",
@@ -70,7 +90,7 @@
     },
 
     {
-        "name": "Azure Rathalos",
+        "name": "azure rathalos",
         "render": "img/render/azure_rathalos.png",
         "icon": "img/icon/azure_rathalos_icon.png",
         "species": "Flying Wyvern",
@@ -97,7 +117,7 @@
     },
 
     {
-        "name": "Banbaro",
+        "name": "banbaro",
         "render": "img/render/banbaro.png",
         "icon": "img/icon/banbaro_icon.png",
         "species": "Brute Wyvern",
@@ -140,7 +160,7 @@
     },
 
     {
-        "name": "Barioth",
+        "name": "barioth",
         "render": "img/render/barioth.png",
         "icon": "img/icon/barioth_icon.png",
         "species": "Flying Wyvern",
@@ -163,7 +183,7 @@
     },
 
     {
-        "name": "Barroth",
+        "name": "barroth",
         "render": "img/render/barroth.png",
         "icon": "img/icon/barroth_icon.png",
         "species": "Brute Wyvern",
@@ -186,7 +206,7 @@
     },
 
     {
-        "name": "Bazelgeuse",
+        "name": "bazelgeuse",
         "render": "img/render/bazelgeuse.png",
         "icon": "img/icon/bazelgeuse_icon.png",
         "species": "Flying Wyvern",
@@ -221,7 +241,7 @@
     },
 
     {
-        "name": "Behemoth",
+        "name": "behemoth",
         "render": "img/render/behemoth.png",
         "icon": "img/icon/behemoth_icon.png",
         "species": "Elder Dragon",
@@ -240,7 +260,7 @@
     },
 
     {
-        "name": "Beotodus",
+        "name": "beotodus",
         "render": "img/render/beotodus.png",
         "icon": "img/icon/beotodus_icon.png",
         "species": "Piscine Wyvern",
@@ -263,7 +283,7 @@
     },
 
     {
-        "name": "Black Diablos",
+        "name": "black diablos",
         "render": "img/render/black_diablos.png",
         "icon": "img/icon/black_diablos_icon.png",
         "species": "Flying Wyvern",
@@ -286,7 +306,7 @@
     },
 
     {
-        "name": "Blackveil Vaal Hazak",
+        "name": "blackveil vaal hazak",
         "render": "img/render/blackveil_vaal_hazak.png",
         "icon": "img/icon/blackveil_vaal_hazak_icon.png",
         "species": "Elder Dragon",
@@ -313,7 +333,7 @@
     },
 
     {
-        "name": "Brachydios",
+        "name": "brachydios",
         "render": "img/render/brachydios.png",
         "icon": "img/icon/brachydios_icon.png",
         "species": "Brute Wyvern",
@@ -321,8 +341,8 @@
         "useful_info": "Its scalp secretes a thick slime capable of tripping hunters who step in it. Water will dilute it, however, making water and ice attacks to its head and arms effective.",
         "elements": ["None"],
         "ailments": ["Blastscourge"],
-        "resistances": ["Fire"],
-        "weakness": ["Ice (&#9733;&#9733;&#9733;)", "Water (&#9733;&#9733;)", "Thunder (&#9733;)", "Dragon (&#9733;)"],
+        "resistances": ["Fire (Immune)", "Thunder", "Dragon"],
+        "weakness": ["Ice (&#9733;&#9733;&#9733;)", "Water (&#9733;&#9733;)"],
         "locations": [
             {
                 "name": "Elder's Recess",
@@ -336,7 +356,7 @@
     },
 
     {
-        "name": "Brute Tigrex",
+        "name": "brute tigrex",
         "render": "img/render/brute_tigrex.png",
         "icon": "img/icon/brute_tigrex_icon.png",
         "species": "Flying Wyvern",
@@ -359,7 +379,7 @@
     },
 
     {
-        "name": "Coral Pukei-Pukei",
+        "name": "coral pukei-pukei",
         "render": "img/render/coral_pukei-pukei.png",
         "icon": "img/icon/coral_pukei-pukei_icon.png",
         "species": "Bird Wyvern",
@@ -382,14 +402,14 @@
     },
     
     {
-        "name": "Deviljho",
+        "name": "deviljho",
         "render": "img/render/deviljho.png",
         "icon": "img/icon/deviljho_icon.png",
         "species": "Brute Wyvern",
         "description": "Due to its enhanced metabolism, Deviljho must constantly seek out prey. It is extremely violent, and known to snatch up large monsters in its powerful maw and flail them around.",
         "useful_info": "When enraged, Deviljho's swollen muscles glow a hellish red. It will start spewing a sweeping dragon element attack, so watch your distance. Deviljho stays on the attack even when wounded, but don't give up; keep fighting and you'll come out on top.",
         "elements": ["Dragon"],
-        "ailments": ["Dragonblight", "Defense Down", "Fireblight On Lava Terrain", "Iceblight On Icy Terrain", "Waterblight On Water Terrain", "Effluvial Buildup (In Rotten Vale)"],
+        "ailments": ["Dragonblight", "Defense Down", "Fireblight On Lava Terrain", "Iceblight On Icy Terrain", "Waterblight On Water Terrain", "Effluvial Buildup in Rotten Vale"],
         "resistances": ["None"],
         "weakness": ["Thunder (&#9733;&#9733;&#9733;)", "Dragon (&#9733;&#9733;&#9733;)", "Fire (&#9733;&#9733;)", "Water (&#9733;&#9733;)"],
         "locations": [
@@ -417,7 +437,7 @@
     },
 
     {
-        "name": "Diablos",
+        "name": "diablos",
         "render": "img/render/diablos.png",
         "icon": "img/icon/diablos_icon.png",
         "species": "Flying Wyvern",
@@ -440,7 +460,7 @@
     },
 
     {
-        "name": "Dodogama",
+        "name": "dodogama",
         "render": "img/render/dodogama.png",
         "icon": "img/icon/dodogama_icon.png",
         "species": "Fanged Wyvern",
@@ -463,7 +483,7 @@
     },
 
     {
-        "name": "Ebony Odogaron",
+        "name": "ebony odogaron",
         "render": "img/render/ebony_odogaron.png",
         "icon": "img/icon/ebony_odogaron_icon.png",
         "species": "Fanged Wyvern",
@@ -506,7 +526,50 @@
     },
 
     {
-        "name": "Fulgur Anjanath",
+        "name": "fatalis",
+        "render": "img/render/fatalis.png",
+        "icon": "img/icon/fatalis_icon.png",
+        "species": "Elder Dragon",
+        "description": "A legendary black dragon known only as Fatalis. Rumored to have destroyed a kingdom in a single night, and has taken its castle for a roost.",
+        "useful_info": "As long as its horns are intact, overcoming its final form's breath attack may be impossible. Cannons and ballistae can topple it. Flinch shots when its flying or standing will lower its head.",
+        "elements": ["Dragon", "Fire"],
+        "ailments": ["Dragonblight", "Fireblight"],
+        "resistances": ["Water", "Thunder", "Ice"],
+
+        "weakness": ["Dragon (&#9733;&#9733;&#9733;)", "Fire (&#9733;&#9733;)"],
+        "locations": [
+            {
+                "name": "Castle Schrade",
+                "img": "img/locale/castle-schrade.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "frostfang barioth",
+        "render": "img/render/frostfang_barioth.png",
+        "icon": "img/icon/frostfang_barioth_icon.png",
+        "species": "Flying Wyvern",
+        "description": "A Barioth variant capable of spewing a sub-zero breath attack that it uses to slow down prey. Be careful, as this attack can freeze you as well.",
+        "useful_info": "Breaking both of its fangs will weaken its frosty breath. If flinched, it may shoot out a breath of ice upon recovering. Thaw out any icy patches on the ground with Torch Pods.",
+        "elements": ["Ice"],
+        "ailments": ["Iceblight"],
+        "resistances": ["Ice", "Water"],
+        "weakness": ["Fire (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)"],
+        "locations": [
+            {
+                "name": "Hoarfrost Reach",
+                "img": "img/locale/hoarfrost-reach.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "fulgur anjanath",
         "render": "img/render/fulgur_anjanath.png",
         "icon": "img/icon/fulgur_anjanath_icon.png",
         "species": "Brute Wyvern",
@@ -549,7 +612,30 @@
     },
 
     {
-        "name": "Glavenus",
+        "name": "furious rajang",
+        "render": "img/render/furious_rajang.png",
+        "icon": "img/icon/furious_rajang_icon.png",
+        "species": "Fanged Beasts",
+        "description": "A Rajang variant covered in golder fur. Utilizes severe ranged and wall-based attacks. It enters a glowing golden state when enraged",
+        "useful_info": "Flanking the monster is highly recommended. If a partner is pinned down, use a Lifepowder, ect. for support. This variant has no tail, so attack its head to knock it out of rampage mode.",
+        "elements": ["Thunder"],
+        "ailments": ["Thunderblight"],
+        "resistances": ["Thunder", "Fire", "Dragon"],
+        "weakness": ["Ice (&#9733;&#9733;&#9733;)"],
+        "locations": [
+            {
+                "name": "Hoarfrost Reach",
+                "img": "img/locale/hoarfrost-reach.jpg"
+            },
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "glavenus",
         "render": "img/render/glavenus.png",
         "icon": "img/icon/glavenus_icon.png",
         "species": "Brute Wyvern",
@@ -584,7 +670,7 @@
     },
 
     {
-        "name": "Gold Rathian",
+        "name": "gold rathian",
         "render": "img/render/gold_rathian.png",
         "icon": "img/icon/gold_rathian_icon.png",
         "species": "Flying Wyvern",
@@ -607,7 +693,7 @@
     },
 
     {
-        "name": "Great Girros",
+        "name": "great girros",
         "render": "img/render/great_girros.png",
         "icon": "img/icon/great_girros_icon.png",
         "species": "Fanged Wyvern",
@@ -630,7 +716,7 @@
     },
 
     {
-        "name": "Great Jagras",
+        "name": "great jagras",
         "render": "img/render/great_jagras.png",
         "icon": "img/icon/great_jagras_icon.png",
         "species": "Fanged Wyvern",
@@ -653,7 +739,7 @@
     },
 
     {
-        "name": "Jyuratodus",
+        "name": "jyuratodus",
         "render": "img/render/jyuratodus.png",
         "icon": "img/icon/jyuratodus_icon.png",
         "species": "Piscine Wyvern",
@@ -661,7 +747,7 @@
         "useful_info": "It's nearly impossible to fight a Jyuratodus in its swampy home. Coerce it to land, and then use water element weapons or your slinger to slowly chip away its hardened mud armor.",
         "elements": ["Water"],
         "ailments": ["Waterblight"],
-        "resistances": ["Water with no mud", "Thunder with mud)", "Fire with mud"],
+        "resistances": ["Water with no mud", "Thunder with mud", "Fire with mud"],
         "weakness": ["Thunder with no mud (&#9733;&#9733;&#9733;)", "Water with mud (&#9733;&#9733;&#9733;)"],
         "locations": [
             {
@@ -676,7 +762,7 @@
     },
 
     {
-        "name": "Kirin",
+        "name": "kirin",
         "render": "img/render/kirin.png",
         "icon": "img/icon/kirin_icon.png",
         "species": "Elder Dragon",
@@ -703,7 +789,7 @@
     },
 
     {
-        "name": "Kulu-Ya-Ku",
+        "name": "kulu-ya-ku",
         "render": "img/render/kulu-ya-ku.png",
         "icon": "img/icon/kulu-ya-ku_icon.png",
         "species": "Bird Wyvern",
@@ -730,7 +816,7 @@
     },
 
     {
-        "name": "Kulve Taroth",
+        "name": "kulve taroth",
         "render": "img/render/kulve_taroth.png",
         "icon": "img/icon/kulve_taroth_icon.png",
         "species": "Elder Dragon",
@@ -738,7 +824,7 @@
         "useful_info": "An exhaustive investigation is required in order to break Kulve Taroth's giant gold plated horns. Pursue the monster to learn more about it. Gather tracks and recruit hunters to help you further your investigation.",
         "elements": ["Fire"],
         "ailments": ["Fireblight"],
-        "resistances": ["Thunder", "Fire", "Ice when in gold"],
+        "resistances": ["Thunder", "Fire", "Ice"],
         "weakness": ["Ice (&#9733;&#9733;&#9733;)", "Water (&#9733;&#9733;)", "Dragon (&#9733;&#9733;)", "Thunder when in gold (&#9733;&#9733;&#9733;)", "Water when in gold (&#9733;&#9733;)", "Dragon when in gold (&#9733;)"],
         "locations": [
             {
@@ -750,7 +836,7 @@
     },
 
     {
-        "name": "Kushala Daora",
+        "name": "kushala daora",
         "render": "img/render/kushala_daora.png",
         "icon": "img/icon/kushala_daora_icon.png",
         "species": "Elder Dragon",
@@ -777,7 +863,7 @@
     },
 
     {
-        "name": "Lavasioth",
+        "name": "lavasioth",
         "render": "img/render/lavasioth.png",
         "icon": "img/icon/lavasioth_icon.png",
         "species": "Piscine Wyvern",
@@ -800,7 +886,7 @@
     },
 
     {
-        "name": "Legiana",
+        "name": "legiana",
         "render": "img/render/legiana.png",
         "icon": "img/icon/legiana_icon.png",
         "species": "Flying Wyvern",
@@ -827,7 +913,7 @@
     },
 
     {
-        "name": "Leshen",
+        "name": "leshen",
         "render": "img/render/leshen.png",
         "icon": "img/icon/leshen_icon.png",
         "species": "Relict",
@@ -846,7 +932,7 @@
     },
 
     {
-        "name": "Lunastra",
+        "name": "lunastra",
         "render": "img/render/lunastra.png",
         "icon": "img/icon/lunastra_icon.png",
         "species": "Elder Dragon",
@@ -873,7 +959,7 @@
     },
 
     {
-        "name": "Nargacuga",
+        "name": "nargacuga",
         "render": "img/render/nargacuga.png",
         "icon": "img/icon/nargacuga_icon.png",
         "species": "Flying Wyvern",
@@ -904,7 +990,7 @@
     },
 
     {
-        "name": "Namielle",
+        "name": "namielle",
         "render": "img/render/namielle.png",
         "icon": "img/icon/namielle_icon.png",
         "species": "Elder Dragon",
@@ -927,7 +1013,7 @@
     },
 
     {
-        "name": "Nergigante",
+        "name": "nergigante",
         "render": "img/render/nergigante.png",
         "icon": "img/icon/nergigante_icon.png",
         "species": "Elder Dragon",
@@ -946,7 +1032,7 @@
     },
 
     {
-        "name": "Nightshade Paolumu",
+        "name": "nightshade paolumu",
         "render": "img/render/nightshade_paolumu.png",
         "icon": "img/icon/nightshade_paolumu_icon.png",
         "species": "Flying Wyvern",
@@ -973,7 +1059,7 @@
     },
 
     {
-        "name": "Odogaron",
+        "name": "odogaron",
         "render": "img/render/odogaron.png",
         "icon": "img/icon/odogaron_icon.png",
         "species": "Fanged Wyvern",
@@ -1000,7 +1086,7 @@
     },
 
     {
-        "name": "Paolumu",
+        "name": "paolumu",
         "render": "img/render/paolumu.png",
         "icon": "img/icon/paolumu_icon.png",
         "species": "Flying Wyvern",
@@ -1023,7 +1109,7 @@
     },
 
     {
-        "name": "Pink Rathian",
+        "name": "pink rathian",
         "render": "img/render/pink_rathian.png",
         "icon": "img/icon/pink_rathian_icon.png",
         "species": "Flying Wyvern",
@@ -1051,7 +1137,7 @@
     },
 
     {
-        "name": "Pukei-Pukei",
+        "name": "pukei-pukei",
         "render": "img/render/pukei-pukei.png",
         "icon": "img/icon/pukei-pukei_icon.png",
         "species": "Bird Wyvern",
@@ -1078,7 +1164,7 @@
     },
 
     {
-        "name": "Radobaan",
+        "name": "radobaan",
         "render": "img/render/radobaan.png",
         "icon": "img/icon/radobaan_icon.png",
         "species": "Brute Wyvern",
@@ -1101,7 +1187,26 @@
     },
 
     {
-        "name": "Rajang",
+        "name": "raging brachydios",
+        "render": "img/render/raging_brachydios.png",
+        "icon": "img/icon/raging_brachydios_icon.png",
+        "species": "Brute Wyvern",
+        "description": "A Brachydios variant that is much larger than the normal species. The slime on its body will activate over time and detonate",
+        "useful_info": "Use melee attacks, water element attacks or watermoss to stop the slime from activating. However, watch your step as this will cause the slime to fall off and detonate.",
+        "elements": ["None"],
+        "ailments": ["Blastscourge", "Fireblight"],
+        "resistances": ["Fire (Immune)", "Thunder", "Dragon"],
+        "weakness": ["Ice (&#9733;&#9733;&#9733;)", "Water (&#9733;&#9733;)"],
+        "locations": [
+            {
+                "name": "The Guiding Lands",
+                "img": "img/locale/guiding-lands.jpg"
+            }
+        ]
+    },
+
+    {
+        "name": "rajang",
         "render": "img/render/rajang.png",
         "icon": "img/icon/rajang_icon.png",
         "species": "Fanged Beasts",
@@ -1144,7 +1249,7 @@
     },
 
     {
-        "name": "Rathalos",
+        "name": "rathalos",
         "render": "img/render/rathalos.png",
         "icon": "img/icon/rathalos_icon.png",
         "species": "Flying Wyvern",
@@ -1171,7 +1276,7 @@
     },
 
     {
-        "name": "Rathian",
+        "name": "rathian",
         "render": "img/render/rathian.png",
         "icon": "img/icon/rathian_icon.png",
         "species": "Flying Wyvern",
@@ -1198,7 +1303,7 @@
     },
 
     {
-        "name": "Ruiner Nergigante",
+        "name": "ruiner nergigante",
         "render": "img/render/ruiner_nergigante.png",
         "icon": "img/icon/ruiner_nergigante_icon.png",
         "species": "Elder Dragon",
@@ -1241,7 +1346,7 @@
     },
 
     {
-        "name": "Safi'jiiva",
+        "name": "safi'jiiva",
         "render": "img/render/safi'jiiva.png",
         "icon": "img/icon/safi'jiiva_icon.png",
         "species": "Elder Dragon",
@@ -1253,14 +1358,14 @@
         "weakness": ["Dragon with Elderseal (&#9733;&#9733;&#9733;)", "Thunder (&#9733;&#9733;)", "Ice (&#9733;&#9733;)", "Water (&#9733;&#9733;)", "Fire (&#9733;&#9733;)", "Dragon (&#9733;&#9733;)"],
         "locations": [
             {
-                "name": "The Guiding Lands",
-                "img": "img/locale/guiding-lands.jpg"
+                "name": "Secluded Valley",
+                "img": "img/locale/secluded-valley.jpg"
             }
         ]
     },
 
     {
-        "name": "Savage Deviljho",
+        "name": "savage deviljho",
         "render": "img/render/savage_deviljho.png",
         "icon": "img/icon/savage_deviljho_icon.png",
         "species": "Brute Wyvern",
@@ -1303,7 +1408,7 @@
     },
 
     {
-        "name": "Scarred Yian Garuga",
+        "name": "scarred yian garuga",
         "render": "img/render/scarred_yian_garuga.png",
         "icon": "img/icon/scarred_yian_garuga_icon.png",
         "species": "Bird Wyvern",
@@ -1326,7 +1431,7 @@
     },
 
     {
-        "name": "Seething Bazelgeuse",
+        "name": "seething bazelgeuse",
         "render": "img/render/seething_bazelgeuse.png",
         "icon": "img/icon/seething_bazelgeuse_icon.png",
         "species": "Flying Wyvern",
@@ -1349,7 +1454,7 @@
     },
 
     {
-        "name": "Shara Ishvalda",
+        "name": "shara ishvalda",
         "render": "img/render/shara_ishvalda.png",
         "icon": "img/icon/shara_ishvalda_icon.png",
         "species": "Elder Dragon",
@@ -1368,7 +1473,7 @@
     },
 
     {
-        "name": "Shrieking Legiana",
+        "name": "shrieking legiana",
         "render": "img/render/shrieking_legiana.png",
         "icon": "img/icon/shrieking_legiana_icon.png",
         "species": "Flying Wyvern",
@@ -1391,7 +1496,7 @@
     },
 
     {
-        "name": "Silver Rathalos",
+        "name": "silver rathalos",
         "render": "img/render/silver_rathalos.png",
         "icon": "img/icon/silver_rathalos_icon.png",
         "species": "Flying Wyvern",
@@ -1414,7 +1519,7 @@
     },
 
     {
-        "name": "Stygian Zinogre",
+        "name": "stygian zinogre",
         "render": "img/render/stygian_zinogre.png",
         "icon": "img/icon/stygian_zinogre_icon.png",
         "species": "Fanged Wyvern",
@@ -1441,7 +1546,7 @@
     },
 
     {
-        "name": "Teostra",
+        "name": "teostra",
         "render": "img/render/teostra.png",
         "icon": "img/icon/teostra_icon.png",
         "species": "Elder Dragon",
@@ -1468,7 +1573,7 @@
     },
 
     {
-        "name": "Tigrex",
+        "name": "tigrex",
         "render": "img/render/tigrex.png",
         "icon": "img/icon/tigrex_icon.png",
         "species": "Flying Wyvern",
@@ -1507,7 +1612,7 @@
     },
 
     {
-        "name": "Tobi-Kadachi",
+        "name": "tobi-kadachi",
         "render": "img/render/tobi-kadachi.png",
         "icon": "img/icon/tobi-kadachi_icon.png",
         "species": "Fanged Wyvern",
@@ -1530,7 +1635,7 @@
     },
 
     {
-        "name": "Tzitzi-Ya-Ku",
+        "name": "tzitzi-ya-ku",
         "render": "img/render/tzitzi-ya-ku.png",
         "icon": "img/icon/tzitzi-ya-ku_icon.png",
         "species": "Bird Wyvern",
@@ -1553,7 +1658,7 @@
     },
 
     {
-        "name": "Uragaan",
+        "name": "uragaan",
         "render": "img/render/uragaan.png",
         "icon": "img/icon/uragaan_icon.png",
         "species": "Brute Wyvern",
@@ -1576,7 +1681,7 @@
     },
 
     {
-        "name": "Vaal Hazak",
+        "name": "vaal hazak",
         "render": "img/render/vaal_hazak.png",
         "icon": "img/icon/vaal_hazak_icon.png",
         "species": "Elder Dragon",
@@ -1595,7 +1700,7 @@
     },
 
     {
-        "name": "Velkhana",
+        "name": "velkhana",
         "render": "img/render/velkhana.png",
         "icon": "img/icon/velkhana_icon.png",
         "species": "Elder Dragon",
@@ -1638,7 +1743,7 @@
     },
 
     {
-        "name": "Viper Tobi-Kadachi",
+        "name": "viper tobi-kadachi",
         "render": "img/render/viper_tobi-kadachi.png",
         "icon": "img/icon/viper_tobi-kadachi_icon.png",
         "species": "Fanged Wyvern",
@@ -1661,7 +1766,7 @@
     },
 
     {
-        "name": "Xeno'jiiva",
+        "name": "xeno'jiiva",
         "render": "img/render/xenojiiva.png",
         "icon": "img/icon/xenojiiva_icon.png",
         "species": "Elder Dragon",
@@ -1680,7 +1785,7 @@
     },
 
     {
-        "name": "Yian Garuga",
+        "name": "yian garuga",
         "render": "img/render/yian_garuga.png",
         "icon": "img/icon/yian_garuga_icon.png",
         "species": "Bird Wyvern",
@@ -1703,7 +1808,7 @@
     },
 
     {
-        "name": "Zinogre",
+        "name": "zinogre",
         "render": "img/render/zinogre.png",
         "icon": "img/icon/zinogre_icon.png",
         "species": "Fanged Wyvern",
@@ -1730,7 +1835,7 @@
     },
 
     {
-        "name": "Zorah Magdaros",
+        "name": "zorah magdaros",
         "render": "img/render/zorah_magdaros.png",
         "icon": "img/icon/zorah_magdaros_icon.png",
         "species": "Elder Dragon",

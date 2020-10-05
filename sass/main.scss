@@ -9,11 +9,13 @@
 @import "base/utilities";
 
 // COMPONENTS
-@import "components/input";
+@import "components/locales";
 @import "components/modal";
-@import "components/monster-box";
-@import "components/monster-icons";
+@import "components/monster";
 
 // LAYOUT
 @import "layout/footer";
-@import "layout/monster";
+@import "layout/header";
+
+// PAGES
+@import "pages/home";
