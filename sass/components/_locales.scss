@@ -1,14 +1,16 @@
 .locales {
     position: relative;
-    
+
     &__grid {
         @include defaultWidth;
         
+        // background-color: #fff;
         color: #fff;
         border-radius: 5px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
+        // padding: 1.5rem;
 
         @include respond(tablet-portrait) {
             grid-template-columns: repeat(2, 1fr);
@@ -23,22 +25,23 @@
         }
     }
 
+    &__container {
+        // background-color: #1f1f1f;
+        // padding: 1.5rem;
+    }
+
     &__name {
         font-size: 1.8rem;
-        padding-bottom: 1rem;
+        padding-top: 1rem;
         text-align: center;
+        color: #fff;
+        text-transform: capitalize;
     }
 
     &__img {
-
         border: 2px solid transparent;
         display: block;
         width: 100% !important;
         transition: all .2s;
-        
-        &:hover {
-            cursor: pointer;
-            border: 2px solid $primary-color;
-        }
     }
 }
